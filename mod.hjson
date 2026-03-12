@@ -3,16 +3,13 @@ displayName: "PHIGHTHOUSE!"
 description: '''
 PHIGHTHOUSE! is a style i made up which is basically  a combonation of phighting, a 5v5 fighting game by boggio, and whitehouse, a british extreme music band started by w. bennett.
 this mod was originally made as "a mod within a mod" but it's has been decided to be it's own thing.
-originally vincenzotheduck & zac's mod
-do not attempt to reinstall as it'll reload theirs instead.
-(note: this is mostly just an asset flip imo creds to them.)
+(note: this is mostly just an asset flip imo creds to the modders of vincenzotheduck, zac & Dagger.)
 '''
 subtitle: '''
 phighthouse whats that?
 '''
 author: '''
-og by VincenzoTheDuck & zac
-Remodded By PHIGHTHOUSE!
+PHIGHTHOUSE!
 '''
 minGameVersion: 136.1
 version: 1.0
