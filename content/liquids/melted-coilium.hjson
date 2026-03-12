@@ -1,0 +1,9 @@
+name: "Melted Coilium"
+description: '''
+Coilium that has been melted into a liquid.
+'''
+color: ff8b35
+temperature: 1
+viscosity: 0.8
+flammability: 0.2
+research: coilium
