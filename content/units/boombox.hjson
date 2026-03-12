@@ -1,0 +1,20 @@
+name: "Boombox"
+description: '''
+Let's lay down the beat!
+(as he says before getting hyperlasered 3 times in a row)
+'''
+isEnemy: false
+outlineColor: 00000000
+drawCell: false
+mineTier: 10
+buildSpeed: 100
+mineSpeed: 10
+coreUnitDock: true
+faceTarget: true
+speed: 2
+rotateSpeed: 8
+hittable: false
+targetable: false
+mineWalls: true
+mineFloor: true
+canBoost: true
