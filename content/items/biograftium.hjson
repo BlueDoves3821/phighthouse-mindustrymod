@@ -1,0 +1,10 @@
+name: "Biograftium"
+description: '''
+Extremely charged material made from subspaceium & copper, watch out for shocks.
+'''
+color: FF6A00
+charge: 10
+research: {
+    parent: coilium
+    requirements: []
+}

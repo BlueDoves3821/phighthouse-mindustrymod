@@ -1,0 +1,10 @@
+name: "Hyperlaserium"
+description: '''
+precision-based material created by mixing coilium & titanium, mainly used for precise ammo supply,
+rarely used as anything else.
+'''
+color: 2b90b4
+  research: {
+    parent: coilium
+    requirements: []
+}

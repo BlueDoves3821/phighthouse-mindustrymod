@@ -1,0 +1,9 @@
+name: "Whitehouseium"
+description: '''
+something used to build & supply any Whitehouse-related builds. (side-note: their music is really abrasive)
+'''
+color: ffffff
+research: {
+    parent: metaglass
+    requirements: []
+}

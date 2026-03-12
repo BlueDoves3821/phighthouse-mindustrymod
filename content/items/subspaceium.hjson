@@ -1,0 +1,12 @@
+name: "Subspaceium"
+description: '''
+Highly explosive material created from mixing coilium & thorium.
+'''
+color: FF0368
+flammability: 1
+explosiveness: 10
+radioactivity: 2.5
+research: {
+    parent: coilium
+    requirements: []
+}
