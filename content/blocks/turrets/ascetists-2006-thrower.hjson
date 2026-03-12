@@ -1,0 +1,67 @@
+type: ItemTurret
+requirements: [
+copper/50
+whitehouseium/85
+lead/25
+]
+name: "Ascetists 2006 Thrower"
+description: '''
+I'd Have Payed GLADLY!
+'''
+category: turret
+range: 350
+smokeEffect: none
+shootSound: payglad
+reload: 30
+recoilTime: 240
+recoil: 1
+shake: 8
+size: 3
+outlineColor: 00000000
+drawer: {
+type: DrawTurret
+basePrefix: logo-
+parts: [
+{
+suffix: "-logo"
+progress: reload
+color: ffffff
+colorTo: ffffff00
+under: true
+outline: false
+y: 0
+}
+]
+}
+ammoTypes: {
+  whitehouseium: {
+    type: BasicBulletType
+    damage: 1200
+    width: 0
+    height: 0
+    shrinkY: 0
+    shrinkX: 0
+    speed: 5
+    lifetime: 70
+    absorbable: false
+    hitShake: 10
+    hitSound: bang
+    parts: [
+      {
+        type: RegionPart
+        name: mindustrymod-ascetists-2006-thrower-logo
+        layer: 111
+        outline: false
+        progress: life
+        moveRot: 90
+      }
+    ]
+  }
+}
+  research: {
+    parent: whitehouseium-maker
+    requirements: [
+      whitehouseium/500
+      copper/250
+]
+}

@@ -1,0 +1,55 @@
+type: ContinuousTurret
+requirements: [
+whitehouseium/750  
+]
+armor: 200
+name: "THE BIRD SEED (OP)"
+description: '''
+CAN YOU WRIGGLE LIKE AN EEL!?
+'''
+hasShadow: false
+category: turret
+shootEffect: none
+smokeEffect: none
+loopSound: wriggle
+shootSound: bang
+range: 2500
+recoil: 0
+shake: 0
+size: 5
+shootCone: 20
+rotateSpeed: 100
+shootEffect: none
+smokeEffect: none
+targetHealing: true
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      outline: false
+      color: 00000000
+      colorTo: ffffff
+      blending: additive
+      progress: warmup
+      suffix: -glow
+    }
+  ]
+}
+shootType: {
+  type: ContinuousLaserBulletType
+  collidesTeam: true
+  healPercent: 80
+  damage: 9000
+  colors: [CE3521, 3C6E2D]
+  length: 2500
+  width: 12
+}
+consumes: {
+power: 15
+}
+  research: {
+    parent: bird-seed
+    requirements: [
+      whitehouseium/2000
+]
+}

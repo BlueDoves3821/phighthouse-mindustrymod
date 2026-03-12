@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: "Whitehouseium Exchanger"
+description: '''
+Exchanges lead for whitehouseium, requires more power.
+'''
+size: 3
+consumes: {
+  power: 3
+  items: [
+    lead/1
+  ]
+}
+craftTime: 60
+outputItems: [
+   whitehouseium/1
+]
+  research: {
+    parent: whitehouseium-maker
+    requirements: [
+      metaglass/100
+      coal/50
+]
+}
+category: crafting
+requirements: [
+  lead/50
+  copper/50
+]

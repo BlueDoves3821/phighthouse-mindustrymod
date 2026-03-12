@@ -1,0 +1,31 @@
+name: "Medkitium Mender"
+description: '''
+Medkitium does not exist yet, the overseer had some questions with him atm. :(
+'''
+type: MendProjector
+color:2CBFA2
+health: 1500
+size: 2
+requirements: [
+  coilium/150
+   plastanium/55
+]
+category: effect
+  research: {
+    parent: coilium-overdrive
+    requirements: [
+      coilium/100
+      plastanium/100
+      titanium/35
+]
+}
+hasPower:true
+consumes: {
+  power: 4
+}
+reload:35
+range:200
+healpercent:35
+phaseRangeBoost:0
+phaseBoost:1.5
+useTime:150

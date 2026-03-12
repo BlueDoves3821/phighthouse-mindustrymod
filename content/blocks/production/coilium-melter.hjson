@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: "Coilium Melter"
+description: '''
+Melts coilium into a liquid.
+'''
+size: 3
+consumes: {
+  power: 0.5
+  items: [
+    coilium/1
+  ]
+}
+craftEffect: smeltsmoke
+craftTime: 5
+outputLiquids: [
+   melted-coilium/15
+]
+liquidCapacity: 1000
+  research: {
+    parent: coilium-converter
+    requirements: [
+      coilium/150
+]
+}
+category: crafting
+requirements: [
+  titanium/65
+  coilium/10
+  copper/50
+]

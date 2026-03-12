@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: "Hyperlaserium Exchanger"
+description: '''
+exchanges coilium for hyperlaserium, requires more power.
+'''
+size: 2
+consumes: {
+  power: 3
+  items: [
+    coilium/1
+  ]
+}
+craftEffect: smeltsmoke
+craftTime: 60
+outputItems: [
+   hyperlaserium/1
+]
+research: {
+    parent: hyperlaserium-converter
+    requirements: [
+    titanium/500
+    coilium/150
+]
+}
+category: crafting
+requirements: [
+  coilium/35
+  copper/50
+]

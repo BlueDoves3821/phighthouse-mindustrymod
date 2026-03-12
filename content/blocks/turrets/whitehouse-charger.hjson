@@ -1,0 +1,115 @@
+type: ItemTurret
+requirements: [
+whitehouseium/200
+]
+name: "Whitehouse Charger"
+description: '''
+PERHAPS YOU SHOULD OPEN YOUR EYES A BIT MORE THAN YOU OPEN YOUR MOUTH!!!
+'''
+category: turret
+range: 650
+smokeEffect: none
+shootSound: guru
+chargeSound: openeyes
+reload: 65
+shoot: {
+  firstShotDelay: 200
+}
+recoil: 4
+shake: 10
+size: 3
+drawer: {
+type: DrawTurret
+parts: [
+{
+suffix: "-racket"
+progress: charge
+color: BFBFBF
+colorTo: ffffa350
+outline: false
+}
+]
+}
+ammoTypes: {
+  whitehouseium: {
+    type: LaserBulletType
+    ammoMultiplier: 1
+    damage: 10000
+    width: 40
+    sideLength: 0
+    sideWidth: 0
+    lifetime: 45
+    length: 650
+    pierce: true
+    colors: [
+      BFBFBF,
+      ffcd66,
+      ffffa3,
+      ffffff
+    ]
+    chargeEffect: [
+      {
+        baseLength: -45
+        length: 45
+        lifetime: 200
+        particles: 15
+        colorFrom: BFBFBF
+        colorTo: ffffff
+        sizeFrom: 0
+        sizeTo: 5
+      }
+      {
+        length: 0
+        lifetime: 200
+        particles: 1
+        colorFrom: BFBFBF
+        colorTo: ffffff
+        sizeTo: 2
+        sizeTo: 10
+      }
+    ]
+    shootEffect: [
+      {
+        length: 200
+        cone: 10
+        lifetime: 60
+        particles: 15
+        colorFrom: ffffa3
+        colorTo: BFBFBF00
+        sizeFrom: 10
+        sizeTo: 3
+      }
+      {
+        length: 650
+        cone: 15
+        lifetime: 60
+        particles: 12
+        colorFrom: ffffff
+        colorTo: bfbfbf00
+        sizeFrom: 7
+        sizeTo: 2
+      }
+    ]
+    hitEffect: [
+      {
+        line: true
+        length: 60
+        lifetime: 15
+        particles: 10
+        colorFrom: ffcd66
+        colorTo: BFBFBF
+        lenFrom: 2
+        lenTo: 0
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    ]
+  }
+}
+ammoPerShot: 10
+  research: {
+    parent: whitehouseium-maker
+    requirements: [
+      whitehouseium/500
+]
+}

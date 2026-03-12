@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: "Subspaceium Exchanger"
+description: '''
+Exchanges coilium for subspaceium, requires more power.
+'''
+size: 2
+consumes: {
+  power: 3
+  items: [
+    coilium/1
+  ]
+}
+craftEffect: smeltsmoke
+craftTime: 60
+outputItems: [
+   subspaceium/1
+]
+  research: {
+    parent: subspaceium-converter
+    requirements: [
+      coilium/150
+      thorium/150
+]
+}
+category: crafting
+requirements: [
+  coilium/35
+  copper/50
+  hyperlaserium/10
+]

@@ -1,0 +1,111 @@
+type: ItemTurret
+requirements: [
+coilium/800
+hyperlaserium/500
+subspaceium/450
+biograftium/50
+surge-alloy/75
+]
+name: "PHIGHTHOUSE BIO-C"
+description: '''
+Uses either biograftium or whitehouseium as ammo, also uses melted coilium to overdrive it.
+'''
+itemCapacity: 100
+hasShadow: false
+category: turret
+range: 950
+shootEffect: none
+smokeEffect: none
+shootSound: laser
+reload: 15
+shake: 5
+size: 10
+inaccuracy: 0
+shootCone: 15
+shoot: {
+  shots: 5
+}
+ammoTypes: {
+  biograftium: {
+    type: LaserBulletType
+    damage: 1800
+    sideLength: 0
+    sideWidth: 5
+    lifetime: 18
+    length: 950
+    pierce: true
+    colors: [
+      C83F01,
+      FED826,
+      FF6A00,
+      ffffff
+    ]
+    hitEffect: [
+      {
+        line: true
+        length: 16
+        lifetime: 10
+        particles: 7
+        colorFrom: C83F01
+        colorTo: FF6A00
+        lenFrom: 2
+        sizeTo: 0
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    ]
+  }
+  whitehouseium: {
+    type: LaserBulletType
+    damage: 1000
+    sideLength: 0
+    sideWidth: 5
+    lifetime: 18
+    length: 950
+    pierce: true
+    colors: [
+      b4b4b4,
+      000000,
+      FF6A00,
+      ffffff
+    ]
+    hitEffect: [
+      {
+        line: true
+        length: 16
+        lifetime: 10
+        particles: 7
+        colorFrom: ffffff
+        colorTo: FF6A00
+        lenFrom: 2
+        sizeTo: 0
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    ]
+  }
+ }
+liquidCapacity: 1000
+coolantMultiplier: 5
+coolant: {
+  type: ConsumeLiquid
+  liquid: melted-coilium
+  amount: 1
+}
+liquidCapacity: 1000
+coolantMultiplier: 5
+coolant: {
+  type: ConsumeLiquid
+  liquid: melted-coilium
+  amount: 1
+}
+  research: {
+    parent: ph-cannon
+    requirements: [
+      subspaceium/850
+      coilium/1150
+      hyperlaserium/650
+      biograftium/100
+      surge-alloy/150
+]
+}

@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: "Biograftium Exchanger"
+description: '''
+Exchanges subspaceium for biograftium, requires more power.
+'''
+size: 2
+consumes: {
+  power: 3
+  items: [
+    subspaceium/1
+  ]
+}
+craftEffect: smeltsmoke
+craftTime: 60
+outputItems: [
+   biograftium/1
+]
+  research: {
+    parent: biograftium-converter
+    requirements: [
+      subspaceium/150
+      copper/150
+]
+}
+category: crafting
+requirements: [
+  subspaceium/35
+  copper/50
+  hyperlaserium/10
+]

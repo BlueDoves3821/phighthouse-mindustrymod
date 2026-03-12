@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: "Coilium Converter"
+description: '''
+Converts titanium & pyratite into coilium using "Boggio" technology, don't ask me why and how this works :P
+'''
+size: 2
+consumes: {
+  power: 0.5
+  items: [
+    titanium/1
+    pyratite/1
+  ]
+}
+craftEffect: smeltsmoke
+drawer: [
+  DrawDefault
+  {
+    type: DrawFlame
+    flameColor: 45b8ff
+  }
+]
+craftTime: 30
+outputItems: [
+   coilium/2
+]
+  research: {
+    parent: core-shard
+    requirements: [
+      titanium/500
+      pyratite/100
+]
+}
+category: crafting
+requirements: [
+  titanium/65
+  metaglass/50
+  copper/50
+]

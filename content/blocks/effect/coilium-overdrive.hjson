@@ -1,0 +1,42 @@
+name: "Coilium Overdrive"
+description: '''
+Overdrives anything by 375%, Requires coilium, phase fabric & water to work.
+'''
+type: OverdriveProjector
+category: effect
+hasBoost: true
+hasPower: true
+hasLiquids: true
+hasItems: true
+size: 3
+speedBoost: 4
+range: 520
+itemCapacity: 40
+health: 1820
+liquidCapacity: 60
+
+consumes: {
+  power: 7
+  items: [
+    phase-fabric/1
+    coilium/1
+  ]
+  liquid: {
+    liquid: water
+    amount: 0.1
+  }
+}
+
+requirements: [
+  coilium/350
+  titanium/150
+]
+
+research: {
+  parent: coilium-converter
+  requirements: [
+    coilium/750
+    titanium/350
+   phase-fabric/300
+  ]
+}

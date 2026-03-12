@@ -1,0 +1,48 @@
+type: ItemTurret
+requirements: [
+coilium/200
+titanium/50
+thorium/50
+subspaceium/15
+]
+name: "the subkit"
+description: '''
+SUBKIT FROM PHIGHTING?! IN MY MODDED MINDUSTRY!?
+'''
+hasShadow: false
+category: turret
+range: 2500
+shootEffect: none
+smokeEffect: none
+shootSound: wapow
+reload: 15
+shake: 4
+size: 4
+inaccuracy: 5
+velocityRnd: 0.25
+shootCone: 15
+shoot: {
+  shots: 15
+}
+ammoTypes: {
+  subspaceium: {
+    type: BasicBulletType
+    width: 16
+    height: 28
+    backColor: 2cbfa2
+    frontColor: ff0368
+    ammoMultiplier: 1
+    damage: 10000
+    lifetime: 130
+    speed: 25
+  }
+}
+ammoPerShot: 1
+liquidCapacity: 300
+  research: {
+    parent: rocket-cannonade
+    requirements: [
+      subspaceium/450
+      coilium/450
+]
+}

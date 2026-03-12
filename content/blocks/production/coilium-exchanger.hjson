@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: "Coilium Exchanger"
+description: '''
+exchanges copper for coilium in return, requires more power.
+'''
+size: 2
+consumes: {
+  power: 3
+  items: [
+    copper/1
+  ]
+}
+craftEffect: smeltsmoke
+craftTime: 60
+outputItems: [
+   coilium/1
+]
+  research: {
+    parent: coilium-converter
+    requirements: [
+      titanium/500
+      pyratite/100
+]
+}
+category: crafting
+requirements: [
+  lead/50
+  copper/50
+]

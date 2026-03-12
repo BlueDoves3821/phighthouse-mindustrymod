@@ -1,0 +1,47 @@
+type: GenericCrafter
+name: "Whitehouseium Maker"
+description: '''
+Makes whitehouseium out of metaglass & coal (for some reason) for whitehouse-related builds & supply.
+'''
+size: 3
+consumes: {
+  power: 1
+  items: [
+    metaglass/1
+    coal/1
+  ]
+}
+drawer: [
+  {
+    type: DrawRegion
+    suffix: -noisebottom
+  }
+  DrawDefault
+  {
+    type: DrawSoftParticles
+    alpha: 0.1
+    particleRad: 12
+    particleSize: 10
+    particleLife: 200
+    particles: 20
+    color: ffffff
+    color2: ffffff
+  }
+]
+craftTime: 25
+outputItems: [
+   whitehouseium/1
+]
+  research: {
+    parent: core-shard
+    requirements: [
+      metaglass/100
+      coal/50
+]
+}
+category: crafting
+requirements: [
+  coal/50
+  metaglass/50
+  copper/50
+]

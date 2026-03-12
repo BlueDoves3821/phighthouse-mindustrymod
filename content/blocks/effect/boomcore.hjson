@@ -1,0 +1,22 @@
+type: CoreBlock
+name: "Boombox's Core"
+description: '''
+Does it rain tacos there tho? (thinking emoji)
+'''
+health: 3600
+armor: 50
+itemCapacity: 9000
+size: 4
+category: effect
+unitType: boombox
+unitCapModifier: 15
+thrusterLength: 15
+requirements: [
+  coilium/500
+]
+research: {
+    parent: coilium-converter
+    requirements: [
+coilium/500
+]
+}

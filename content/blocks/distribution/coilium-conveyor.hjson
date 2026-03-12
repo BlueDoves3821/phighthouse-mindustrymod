@@ -1,0 +1,20 @@
+type: StackConveyor
+name: "Coilium Conveyor"
+description: '''
+A stack conveyor made from coilium, with some titanium for extra protection.
+'''
+armor: 5
+speed: 0.05
+itemCapacity: 35
+category: distribution
+requirements: [
+titanium/1
+coilium/1
+]
+research: {
+    parent: coilium-converter
+    requirements: [
+coilium/80
+titanium/10
+]
+}

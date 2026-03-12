@@ -1,0 +1,22 @@
+type: CoreBlock
+name: "Whitehouse Core"
+description: '''
+Well hello, bennett. (currently defaults to gamma unit)
+'''
+health: 2600
+armor: 50
+itemCapacity: 7500
+size: 4
+category: effect
+unitType: gamma
+unitCapModifier: 15
+thrusterLength: 15
+requirements: [
+  whitehouseium/500
+]
+research: {
+    parent: whitehouseium-maker
+    requirements: [
+whitehouseium/500
+]
+}

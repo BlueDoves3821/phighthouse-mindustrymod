@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: "Phightium Factory"
+description: '''
+Uses large amounts of power & copper to make phightiums.
+'''
+size: 4
+consumes: {
+  power: 10
+  items: [
+    copper/20
+  ]
+}
+itemCapacity: 80
+craftEffect: smeltsmoke
+craftTime: 120
+outputItems: [
+   coilium/5
+   hyperlaserium/5
+   subspaceium/5
+   biograftium/5
+]
+  research: {
+    parent: boomcore
+    requirements: [
+      coilium/150
+      hyperlaserium/150
+      subspaceium/150
+      biograftium/150
+]
+}
+category: crafting
+requirements: [
+  titanium/65
+  metaglass/70
+  copper/150
+  lead/150
+]

@@ -1,0 +1,73 @@
+type: ItemTurret
+requirements: [
+coilium/50
+copper/150
+]
+name: "Rocket's Grand Cannonade"
+description: '''
+Allat rockets from the sky for one kill.
+'''
+armor: 5
+hasShadow: false
+category: turret
+range: 250
+shootEffect: none
+smokeEffect: none
+shootSound: pipe
+reload: 25
+recoil: 5
+shake: 2
+size: 3
+shoot: {
+  shots: 6
+}
+inaccuracy: 15
+velocityRnd: 0.22
+shootCone: 45
+ammoTypes: {
+  coilium: {
+    type: ArtilleryBulletType
+    ammoMultiplier: 1
+    damage: 100
+    splashDamage: 66
+    splashDamageRadius: 18
+    lifetime: 50
+    speed: 5
+    width: 15
+    height: 15
+    backColor: 527CAE
+    frontColor: 527CAE
+    hitEffect: none
+    despawnEffect: [
+      blastExplosion
+      {
+        length: 28
+        lifetime: 25
+        particles: 7
+        colorFrom: 527CAE
+        colorTo: 527CAE
+        sizeFrom: 7
+        sizeTo: 0
+        interp: pow3Out
+        sizeInterp: linear
+      }
+    ]
+    status: sapped
+    trailEffect: none
+  }
+}
+ammoPerShot: 10
+ammoCapacity: 40
+liquidCapacity: 300
+coolantMultiplier: 3.5
+coolant: {
+  type: ConsumeLiquid
+  liquid: water
+  amount: 0.3
+}
+  research: {
+    parent: coilium-converter
+    requirements: [
+      coilium/150
+]
+}

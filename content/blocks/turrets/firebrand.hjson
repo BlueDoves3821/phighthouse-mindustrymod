@@ -1,0 +1,45 @@
+type: PowerTurret
+requirements: [
+  coilium/1
+  pyratite/1
+]
+name: "PHIGHTING! Firebrand"
+description: '''
+Responsible for "The Scorch" The destruction of a major city at The Lost Temple, now he's here in mindustry doing it again to the Crux or the Malis.
+'''
+category: turret
+range: 350
+reload: 5
+recoil: 0
+shake: 0
+size: 4
+shootY: 0
+inaccuracy: 360
+velocityRnd: 0.7
+shootCone: 360
+rotateSpeed: 0
+shootEffect: none
+smokeEffect: none
+shootSound: flame
+shootType: {
+  type: BulletType
+  homingPower: 0.2
+  homingRange: 150
+  trailEffect: fire
+  trailChance: 0.65
+  speed: 4
+  lifetime: 70
+  status: burning
+  hitEffect: fireHit
+  despawnEffect: blastExplosion
+}
+consumes: {
+power: 1
+}
+  research: {
+    parent: rocket-cannonade
+    requirements: [
+      coilium/250
+      pyratite/180
+]
+}
