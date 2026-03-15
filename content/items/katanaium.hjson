@@ -1,0 +1,9 @@
+name: "Katanaium"
+description: '''
+A strong material for any heavy-duty phighting-related builds.
+'''
+color: AF2020
+research: {
+    parent: coilium
+    requirements: []
+}
