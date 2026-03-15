@@ -1,0 +1,36 @@
+Name: Whitehouser
+description: The unit from the whitehouse core, couldn't think of a proper description.
+type: flying
+flying: true
+health: 1000
+armor: 10
+speed: 3
+rotateSpeed: 10
+drag: 0.03
+accel: 0.1
+hitSize: 16
+engineSize: 2
+lowAltitude: false
+faceTarget: false
+circleTarget: true
+itemCapacity: 999
+mineTier: 10
+buildSpeed: 100
+mineSpeed: 10
+shootSound: hungryfor
+  "weapons": [
+    {
+      "reload": 5,
+      "inaccuracy": 2,
+      "rotate": true,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 50,
+        "height": 9,
+        "width": 7,
+        "homingPower": 1,
+        "lifetime": 90
+        speed: 25
+      }
+    }
+  ],
