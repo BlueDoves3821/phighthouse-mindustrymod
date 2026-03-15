@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: "Katanaium Exchanger"
+description: '''
+Exchanges coilium for katanaium, requires more power.
+'''
+size: 2
+consumes: {
+  power: 3
+  items: [
+    coilium/1
+  ]
+}
+craftEffect: smeltsmoke
+craftTime: 60
+outputItems: [
+   katanaium/1
+]
+  research: {
+    parent: katanaium-converter
+    requirements: [
+      coilium/150
+      copper/150
+]
+}
+category: crafting
+requirements: [
+  coilium/35
+  copper/50
+  lead/10
+]

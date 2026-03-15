@@ -1,0 +1,40 @@
+type: GenericCrafter
+name: "Katanaium Converter"
+description: '''
+Converts coilium, lead & titanium into katanaium.
+'''
+size: 2
+consumes: {
+  power: 0.5
+  items: [
+    coilium/1
+    lead/1
+    titanium/1
+  ]
+}
+craftEffect: smeltsmoke
+drawer: [
+  DrawDefault
+  {
+    type: DrawFlame
+    flameColor: AF2020
+  }
+]
+craftTime: 30
+outputItems: [
+   katanaium/1
+]
+  research: {
+    parent: coilium-converter
+    requirements: [
+      coilium/150
+      titanium/150
+      lead/150
+]
+}
+category: crafting
+requirements: [
+  titanium/65
+  metaglass/50
+  copper/65
+]
