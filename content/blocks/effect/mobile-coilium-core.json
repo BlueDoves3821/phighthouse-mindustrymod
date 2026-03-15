@@ -1,0 +1,21 @@
+{
+  "name": "Mobile Coilium Core",
+  "description": "A coilium core that can be placed anywhere regardless of needing core tiles.",
+  "size": 1,
+  "researchCostMultiplier": 0.5,
+  "health": 650,
+  "itemCapacity": 2500,
+  "armor": 6,
+  "requirements": [
+    { "item": "coilium","amount": 75}
+  ],
+  "category": "effect",
+  "research": {
+    "parent": "coilium-converter",
+    "requirements": [
+      "coilium/200"
+    ]
+  },
+  "unitType": "alpha",
+  "unitCapModifier": 5
+}
