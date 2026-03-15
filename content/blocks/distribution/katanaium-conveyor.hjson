@@ -1,0 +1,20 @@
+type: StackConveyor
+name: "Katanaium Conveyor"
+description: '''
+A stronger version of the coilium conveyor, trades off speed for more items.
+'''
+armor: 10
+speed: 0.25
+itemCapacity: 60
+category: distribution
+requirements: [
+katanaium/1
+coilium/1
+]
+research: {
+    parent: coilium-conveyor
+    requirements: [
+coilium/50
+katanaium/50
+]
+}
