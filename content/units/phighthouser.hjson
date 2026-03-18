@@ -1,0 +1,36 @@
+{
+  "type": "flying",
+  "name": "Phighthouser",
+  "description": "A unit from the phighthouse core.",
+  "drag": 0.03,
+circleTarget: true
+facetarget: true
+rotateSpeed: 30
+  "speed": 8,
+  "buildSpeed": 500,
+  "mineSpeed": 200,
+  "mineTier": 100,
+  "armor": 70,
+  "coreUnitDock": true,
+  "health": 2000,
+  "flying": true,
+  "itemCapacity": 1000,
+  "hitSize": 16
+  "weapons": [
+    {
+     y: 3
+      "reload": 2.5,
+      "inaccuracy": 0.01,
+      "rotate": false,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 100,
+        "height": 9,
+        "width": 7,
+        "homingPower": 1,
+        "lifetime": 90
+        speed: 25
+      }
+    }
+  ],
+}
