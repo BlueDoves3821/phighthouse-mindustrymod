@@ -1,0 +1,108 @@
+type: ItemTurret
+requirements: [
+whitehouseium/35
+]
+name: "Mini Whitehouse Turret"
+description: '''
+If you want to see my hand...
+'''
+category: turret
+range: 200
+smokeEffect: none
+shootSound: hfp
+chargeSound: tyls
+reload: 10
+shoot: {
+  firstShotDelay: 90
+}
+recoil: 10
+shake: 5
+size: 2
+drawer: {
+type: DrawTurret
+parts: [
+]
+}
+ammoTypes: {
+  whitehouseium: {
+    type: LaserBulletType
+    ammoMultiplier: 1
+    damage: 500
+    width: 40
+    sideLength: 0
+    sideWidth: 0
+    lifetime: 60
+    length: 200
+    pierce: true
+    colors: [
+      b4b4b4,
+      bfbfbf,
+      040404,
+      ffffff
+    ]
+    chargeEffect: [
+      {
+        baseLength: -45
+        length: 45
+        lifetime: 100
+        particles: 15
+        colorFrom: b4b4b4
+        colorTo: ffffff
+        sizeFrom: 0
+        sizeTo: 5
+      }
+      {
+        length: 0
+        lifetime: 100
+        particles: 1
+        colorFrom: b4b4b4
+        colorTo: ffffff
+        sizeTo: 2
+        sizeTo: 10
+      }
+    ]
+    shootEffect: [
+      {
+        length: 200
+        cone: 10
+        lifetime: 60
+        particles: 15
+        colorFrom: ffffff
+        colorTo: ffffFF00
+        sizeFrom: 10
+        sizeTo: 3
+      }
+      {
+        length: 240
+        cone: 15
+        lifetime: 60
+        particles: 12
+        colorFrom: ffffff
+        colorTo: ffffFF00
+        sizeFrom: 7
+        sizeTo: 2
+      }
+    ]
+    hitEffect: [
+      {
+        line: true
+        length: 60
+        lifetime: 15
+        particles: 10
+        colorFrom: ffffff
+        colorTo: ffffff
+        lenFrom: 2
+        lenTo: 0
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    ]
+  }
+}
+ammoPerShot: 1
+  research: {
+    parent: whitehouseium-maker
+    requirements: [
+      whitehouseium/150
+]
+}
