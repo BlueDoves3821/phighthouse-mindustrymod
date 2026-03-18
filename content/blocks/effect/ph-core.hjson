@@ -1,0 +1,29 @@
+type: CoreBlock
+name: "PHIGHTHOUSE Core"
+description: '''
+The combination of a few phightiums & whitehouseium makes one strong core,really expensive, once researched, the phighthouse branch's unlocked.
+'''
+health: 6000
+armor: 100
+itemCapacity: 50000
+size: 4
+category: effect
+unitType: phighthouser
+unitCapModifier: 35
+thrusterLength: 15
+requirements: [
+  coilium/250
+  katanaium/250
+  whitehouseium/250
+  
+]
+research: {
+    parent: core-shard
+    requirements: [
+coilium/500
+katanaium/500
+whitehouseium/250
+titanium/250
+silicon/250
+]
+}
