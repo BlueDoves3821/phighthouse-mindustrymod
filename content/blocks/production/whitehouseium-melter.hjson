@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: "Whitehouseium Melter"
+description: '''
+Melts whitehouseium into a liquid.
+[red]Disclaimer: This production build has no usage for anything at the moment, for this reason, production costs are lower.
+'''
+size: 3
+consumes: {
+  power: 0.25
+  items: [
+    whitehouseium/1
+  ]
+}
+craftEffect: smeltsmoke
+craftTime: 5
+outputLiquids: [
+   melted-whitehouseium/15
+]
+liquidCapacity: 1000
+  research: {
+    parent: whitehouseium-maker
+    requirements: [
+      whitehouseium/50
+      coal/15
+]
+}
+category: crafting
+requirements: [
+  whitehouseium/25
+  coal/5
+]
