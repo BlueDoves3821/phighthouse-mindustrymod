@@ -1,7 +1,7 @@
 type: PowerTurret
 requirements: [
-  coilium/1
-  pyratite/1
+  coilium/10
+  pyratite/10
 ]
 name: "PHIGHTING! Firebrand"
 description: '''

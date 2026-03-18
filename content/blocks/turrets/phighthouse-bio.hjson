@@ -100,7 +100,7 @@ coolant: {
   amount: 1
 }
   research: {
-    parent: ph-cannon
+    parent: ph-core
     requirements: [
       subspaceium/850
       coilium/1150

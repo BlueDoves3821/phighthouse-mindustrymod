@@ -21,15 +21,17 @@
   "trailColor":"AF2020"}
 ,
   "requirements": [
-  {"item":"graphite","amount":100},
-  {"item":"silicon","amount":120},
+  {"item":"graphite","amount":50},
+  {"item":"silicon","amount":65},
   {"item":"katanaium","amount":80}
+  {"item":"coilium","amount":35}
   ],
   "category": "turret"
   research: {
     parent: rocket-cannonade
     requirements: [
-      coilium/100
+      coilium/175
+      katanaium/150
 ]
 }
 }

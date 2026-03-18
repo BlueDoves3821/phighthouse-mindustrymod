@@ -77,7 +77,7 @@ ammoTypes: {
 }
 ammoPerShot: 1
 research: {
-    parent: core-shard
+    parent: ph-core
     requirements: [
 coilium/250
 whitehouseium/250
