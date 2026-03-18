@@ -1,0 +1,7 @@
+name: "Melted Whitehouseium"
+description: '''
+Whitehouseium that has been melted into a liquid, [red]currently has no use at the moment, but in a future updare maybe it will.
+'''
+color: bfbfbfbf
+viscosity: 0.45
+research: whitehouseium
