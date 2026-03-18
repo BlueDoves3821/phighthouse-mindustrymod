@@ -1,0 +1,37 @@
+type: Drill
+
+name: "Coilium Drill"
+description: "A coilium drill, good output with great speed, requires katanaium for sturdiness, can also take melted coilium for a speed boost."
+details: "Makes me wonder why ores aren't depleted yet"
+
+requirements: [
+  coilium/75
+  katanaium/75
+]
+drillTime: 45
+health: 850
+tier: 10
+size: 2
+rotateSpeed: 8
+warmupSpeed: 0.01
+itemCapacity: 30
+liquidBoostIntensity: 2
+drillEffect: mineHuge
+updateEffect: pulverizeRed
+updateEffectChance: 0.06
+consumes: {
+  liquid: {
+    liquid: melted-coilium
+    amount: 0.2
+    booster: true
+    optional: true
+  }
+}
+  research: {
+    parent: coilium-converter
+    requirements: [
+      coilium/100
+      katanaium/100
+]
+}
+category: production

@@ -1,0 +1,28 @@
+type: Drill
+
+name: "Whitehouseium Drill"
+description: "A whitehouseium drill, basically a re-skinned coilium drill, but does not take melted coilium, and so it's drill time's been re-calibrated."
+details: "Makes me wonder why ores aren't depleted yet"
+
+requirements: [
+  whitehouseium/75
+  coal/10
+]
+drillTime: 25
+health: 850
+tier: 10
+size: 2
+rotateSpeed: 8
+warmupSpeed: 0.01
+itemCapacity: 30
+liquidBoostIntensity: 2
+drillEffect: mineHuge
+updateEffect: pulverizeRed
+updateEffectChance: 0.06
+  research: {
+    parent: whitehouseium-maker
+    requirements: [
+      whitehouseium/100
+]
+}
+category: production
