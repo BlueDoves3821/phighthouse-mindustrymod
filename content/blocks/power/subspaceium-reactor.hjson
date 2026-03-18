@@ -1,0 +1,43 @@
+type: NuclearReactor
+
+name: "Subspaceium Reactor"
+description: "[red]Disclaimer: Despite the name, it does not take subspaceium as fuel, it merely uses it as material. [grey]An upgraded thorium reactor, generates large amounts of power, explodes if cryofluid runs empty."
+details: "THE DOOMED POTENTIAL."
+
+requirements: [
+  subspaceium/150
+  titanium/35
+  katanaium/10
+  graphite/65
+]
+size: 3
+ambientSound: hum
+ambientSoundVolume: 0.3
+itemDuration: 240
+itemCapacity: 45
+liquidCapcity: 3500
+health: 1500
+armor: 10
+powerProduction: 45
+heating: 0.00085
+flashThreshold: 0.2
+  research: {
+    parent: subspaceium-converter
+    requirements: [
+      coilium/400
+      subspaceium/350
+]
+}
+category: power
+consumes: {
+  items: [
+    thorium/1
+  ]
+  liquids: [
+    cryofluid/0.05
+  ]
+}
+explosionShake: 9
+explosionShakeDuration: 20
+explosionRadius: 25
+explosionDamage: 7500
