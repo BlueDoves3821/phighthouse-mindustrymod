@@ -1,0 +1,28 @@
+Name: Mini Biograftium Unit Factory
+description: Builds the M.B.Unit.
+type: UnitFactory
+size: 3
+consumes: {
+  power: 0.5
+}
+plans: [
+  {
+    unit: mini-bgm-unit
+    time: 100
+    requirements: [
+phighthouse-biograftium/10
+    ]
+  }
+]
+requirements: [
+phighthouse-coilium/75
+phighthouse-biograftium/50
+]
+  research: {
+    parent: phighthouse-coilium-converter
+    requirements: [
+      phighthouse-coilium/100
+      phighthouse-biograftium/100
+]
+}
+category: units
