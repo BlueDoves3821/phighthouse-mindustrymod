@@ -1,0 +1,37 @@
+type: Drill
+
+name: "Large Coilium Drill"
+description: "A large coilium drill, higher tier, can also take melted coilium for a speed boost."
+details: "big coilium mining"
+
+requirements: [
+  phighthouse-coilium/130
+  phighthouse-katanaium/130
+]
+drillTime: 45
+health: 1400
+tier: 50
+size: 5
+rotateSpeed: 10
+warmupSpeed: 50
+itemCapacity: 300
+liquidBoostIntensity: 2
+drillEffect: mineHuge
+updateEffect: pulverizeRed
+updateEffectChance: 0.06
+consumes: {
+  liquid: {
+    liquid: phighthouse-melted-coilium
+    amount: 0.2
+    booster: true
+    optional: true
+  }
+}
+  research: {
+    parent: phighthouse-coilium-drill
+    requirements: [
+      phighthouse-coilium/350
+      phighthouse-katanaium/350
+]
+}
+category: production

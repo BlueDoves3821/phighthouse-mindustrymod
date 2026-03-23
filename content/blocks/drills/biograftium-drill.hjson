@@ -1,0 +1,36 @@
+type: Drill
+
+name: "Biograftium Drill"
+description: "A biograftium drill with built-in overdriver, will take melted coilium for an unusually fast speed boost."
+details: "Subspaceium Approved!"
+
+requirements: [
+  phighthouse-biograftium/50
+]
+drillTime: 1
+health: 1400
+tier: 50
+size: 2
+rotateSpeed: 10
+warmupSpeed: 50
+itemCapacity: 50
+liquidBoostIntensity: 10
+drillEffect: mineHuge
+updateEffect: pulverizeRed
+updateEffectChance: 0.06
+consumes: {
+  liquid: {
+    liquid: phighthouse-melted-coilium
+    amount: 0.1
+    booster: true
+    optional: true
+  }
+}
+  research: {
+    parent: phighthouse-coilium-drill
+    requirements: [
+      phighthouse-biograftium/100
+      phighthouse-subspaceium/50
+]
+}
+category: production
