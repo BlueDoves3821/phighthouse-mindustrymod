@@ -1,0 +1,30 @@
+{
+  "type": "MassDriver",
+  "name": "Whitehouseium Mass Driver",
+  "health": 2500,
+  "description": "A mass driver made out of whitehouseium, much better than a regular mass driver.",
+  "itemCapacity": 400,
+  "reload": 30,
+  "shake": 0.5,
+  "knockback": 1,
+  "range": 4000,
+  "bulletLifetime": 1000,
+  "size": 3,
+  "consumes": {
+    "power": 1
+  },
+  "requirements": [
+    {
+      "item": "phighthouse-whitehouseium",
+      "amount": 150
+    },
+  ],
+  "category": "distribution",
+  research: {
+    parent: phighthouse-whitehouseium-maker
+    requirements: [
+      phighthouse-whitehouseium/100
+      titanium/50
+]
+}
+}
