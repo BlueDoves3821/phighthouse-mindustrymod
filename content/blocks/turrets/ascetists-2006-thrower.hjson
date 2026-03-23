@@ -49,7 +49,7 @@ ammoTypes: {
     parts: [
       {
         type: RegionPart
-        name: mindustrymod-ascetists-2006-thrower-logo
+        name: phighthouse-ascetists-2006-thrower-logo
         layer: 111
         outline: false
         progress: life
