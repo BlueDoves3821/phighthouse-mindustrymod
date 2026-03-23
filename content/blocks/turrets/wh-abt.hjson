@@ -1,0 +1,27 @@
+type: PointDefenseTurret
+requirements: [
+  phighthouse-whitehouseium/150
+]
+name: "Whitehouseium A.B.T"
+description: '''
+A.B.T stands for "Anti Bullet Turret"
+shoots at bullets instead of enemies, can be really useful.
+'''
+category: turret
+shootY: 2
+"shootLength": 0.5,
+"reload": 1,
+"rotateSpeed": 15,
+"range": 500,
+"size": 3,
+"health": 1200,
+"bulletDamage": 5000,
+consumes: {
+power: 5
+}
+  research: {
+    parent: phighthouse-whitehousium-charger
+    requirements: [
+      phighthouse-whitehouseium/250
+]
+}

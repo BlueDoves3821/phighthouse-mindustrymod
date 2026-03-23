@@ -1,0 +1,92 @@
+type: ItemTurret
+requirements: [
+phighthouse-coilium/200
+phighthouse-whitehouseium/200
+]
+name: "PHIGHTHOUSE Bullet Hell"
+description: '''
+Basically touhou if it was phighthouse.
+[orange]coilium: fast projectiles, non-homing.
+[pink]subspaceium: much faster, homing, less damage.
+[white]whitehouseium: slower, homing, more damage.
+[cyan]hyperlaserium: hit-scan lasers, hope you weren't in the scan.
+'''
+hasShadow: false
+category: turret
+range: 1500
+shootEffect: none
+smokeEffect: none
+shootSound: subboomgrie
+reload: 25
+shake: 6
+size: 4
+inaccuracy: 360
+velocityRnd: 0
+shootCone: 360
+shootY: -2
+shoot: {
+  shots: 30
+}
+ammoTypes: {
+  phighthouse-coilium: {
+    type: BasicBulletType
+    width: 12
+    height: 20
+    backColor: 45b8ff
+    frontColor: ff8b35
+    ammoMultiplier: 1
+    damage: 250
+    lifetime: 120
+    speed: 12.5
+  }
+phighthouse-whitehouseium: {
+    type: BasicBulletType
+    width: 12
+    height: 20
+    backColor: 343434
+    frontColor: ffffff
+    ammoMultiplier: 1
+    damage: 450
+    lifetime: 300
+    speed: 5
+  homingPower: 0.01
+   }
+phighthouse-subspaceium: {
+    type: BasicBulletType
+    width: 25
+    height: 15
+    backColor: ff0368
+    frontColor: ff0368
+    ammoMultiplier: 1
+    damage: 100
+    lifetime: 60
+    speed: 25
+  homingPower: .025
+   }
+phighthouse-hyperlaserium: {
+    type: LaserBulletType
+    ammoMultiplier: 10
+    damage: 250
+    width: 40
+    sideLength: 0
+    sideWidth: 0
+    lifetime: 60
+    length: 1500
+    pierce: true
+    colors: [
+      8CFBFF,
+      77C1D5,
+      30677B,
+      ffffff
+    ]
+}
+}
+ammoPerShot: 1
+shotCapacity: 600
+  research: {
+    parent: phighthouse-ph-core
+    requirements: [
+      phighthouse-whitehouseium/450
+      phighthouse-coilium/450
+]
+}
