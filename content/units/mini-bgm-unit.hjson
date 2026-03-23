@@ -1,0 +1,41 @@
+  "type": "mech",
+  "name": "[white]Mini Biograftium Unit",
+  "description": "a really small unit made out of biograftium, not very strong, mainly used as a distractor, does not count towards the unit limit.
+[grey]if there's enough of it, the enemy is overwhelmed!",
+  "drag": 0.15,
+  "speed": 3.5,
+  "buildSpeed": 10,
+  "mineSpeed": 2,
+  "mineTier": 1,
+  "armor": 5,
+faceEnemy: true
+circleEnemy: true
+canBoost: true
+drawCell: false
+
+useUnitCap: false
+
+  research: bgmu-factory
+  
+  "coreUnitDock": true,
+  
+  "health": 100,
+  "flying": false,
+  "itemCapacity": 5,
+  "hitSize": 1
+  "weapons": [
+    {
+      "reload": 1,
+      "inaccuracy": 0,
+      "rotate": true,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 5,
+        "height": 9,
+        "width": 7,
+        "homingPower": 10,
+        "lifetime": 20
+        speed: 8
+      }
+      }
+],
