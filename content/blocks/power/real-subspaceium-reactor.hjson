@@ -1,0 +1,43 @@
+type: NuclearReactor
+
+name: '''
+An "Actual" Subspaceium Reactor
+'''
+description: "Unlike the original reactor, this reactor DOES take subspaceium as fuel, generates large amounts of power, explodes if cryofluid runs empty."
+details: "THE DOOMED POTENTIAL."
+
+requirements: [
+  phighthouse-subspaceium/150
+  titanium/35
+  phighthouse-katanaium/10
+  graphite/65
+]
+size: 3
+ambientSound: hum
+ambientSoundVolume: 0.3
+itemDuration: 240
+itemCapacity: 45
+liquidCapcity: 3500
+health: 1500
+armor: 10
+powerProduction: 45
+heating: 0.00085
+flashThreshold: 0.2
+fuelItem: phighthouse-subspaceium
+  research: {
+    parent: phighthouse-subspaceium-reactor
+    requirements: [ ]
+}
+category: power
+consumes: {
+  items: [
+    phighthouse-subspaceium/1
+  ]
+  liquids: [
+    cryofluid/0.05
+  ]
+}
+explosionShake: 9
+explosionShakeDuration: 20
+explosionRadius: 25
+explosionDamage: 7500
