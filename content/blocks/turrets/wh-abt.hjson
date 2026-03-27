@@ -20,7 +20,7 @@ consumes: {
 power: 5
 }
   research: {
-    parent: phighthouse-whitehousium-charger
+    parent: phighthouse-whitehouse-charger
     requirements: [
       phighthouse-whitehouseium/250
 ]
