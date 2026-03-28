@@ -1,0 +1,33 @@
+{
+    "type": "Battery",
+name: "Whitehouseium Battery"
+description: '''
+A battery that can hold alot of power until it's needed.
+'''
+    "size": 3,
+    "health": 2000,
+    "emitLight": true,
+    "hasPower": true,
+    "baseExplosiveness": 200,
+    "insulated": false,
+fullLightColor: ffffff
+emptyLightColor: 989AA4
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 100
+        }        {
+            "item": "graphite",
+            "amount": 35
+        },
+        {
+            "item": "phighthouse-whitehouseium",
+            "amount": 50
+        }
+    ],
+    "consumes": {
+        "powerBuffered": 500000
+    },
+    "category": "power",
+    "research": "phighthouse-whitehouseium-maker"
+}
