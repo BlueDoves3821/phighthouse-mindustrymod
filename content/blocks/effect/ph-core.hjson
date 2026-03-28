@@ -1,7 +1,7 @@
 type: CoreBlock
 name: "PHIGHTHOUSE Core"
 description: '''
-The combination of a few phightiums & whitehouseium makes one strong core,really expensive, once researched, the phighthouse branch's unlocked.
+The combination of a few phightiums & whitehouseium makes one strong core, really expensive, once researched, the phighthouse branch's unlocked.
 '''
 health: 6000
 armor: 100
