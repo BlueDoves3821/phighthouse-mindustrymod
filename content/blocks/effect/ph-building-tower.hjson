@@ -1,0 +1,29 @@
+{
+  "type": "BuildTurret",
+  "name": "PHIGHTHOUSE Build Tower",
+  "description": "It's like support units, it helps you build structures.",
+  "size": 4,
+  "range": 800,
+  "outlines": true,
+  "outlineRadius": 4,
+  "outlineColor": "404049ff",
+  "buildSpeed": 5,
+  "outlineIcon": true,
+  "hasPower": true,
+  "consumes": {
+    "power": 5,
+  items: [
+    phighthouse-coilium/1
+    phighthouse-whitehouseium/1
+  ]
+  },
+  "category": "effect",
+  "requirements": [
+  "phighthouse-whitehouseium/60"
+  "silicon/150"
+  "plastanium/40"
+  "phighthouse-coilium/50"
+  "phighthouse-katanaium/25"
+  ],
+  "research": "phighthouse-ph-core"
+}

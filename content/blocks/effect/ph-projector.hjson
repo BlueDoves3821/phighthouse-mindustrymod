@@ -1,0 +1,36 @@
+name: PHIGHTHOUSE Projector
+description: "A force projector made out of phightiums & whitehouseium, good protection."
+type: ForceProjector
+health: 3500
+size: 4
+liquidCapacity: 30
+baseExplosiveness: 100
+buildCostMultiplier: 1
+hasPower: true
+canOverdrive: true
+phaseUseTime: 270
+phaseRadiusBoost: 500
+radius: 200
+shieldHealth: 15000
+phaseShieldBoost: 1000
+cooldownNormal: 50
+cooldownLiquid: 100
+cooldownBrokenBase: 50
+consumes: {
+  power: 10
+  items: {
+    items: [
+      phighthouse-coilium/1
+    ]
+    booster: true
+	optional: true
+  }
+}
+requirements: [
+  phighthouse-coilium/650
+  titanium/120
+  phighthouse-katanaium/320
+  phighthouse-whitehouseium/410
+]
+category: effect
+research: phighthouse-ph-core
