@@ -1,0 +1,25 @@
+{
+        "type": "flying",
+        "name": Whitehouseium Mining Drone
+        "description": "Mines ores for the you, cannot be controlled.",
+        "lowAltitude": false,
+        "research": "wh-md-factory",
+        "defaultController": "minerAI",
+  "playerControllable": false,
+        "speed": 5,
+        "mineSpeed": 20,
+"rotateSpeed": 10.5,
+        "mineTier": 30000,
+        "accel": 0.5,
+        "drag": 0.5,
+        "mineHardnessScaling": true,
+        "mineWalls": true,
+  "outlineColor": "36363c",
+       "engineColor": "FFFFFFFF",
+        "flying": true,
+        "health": 200,
+        "hitSize": 20,
+        "armor": 3,
+        "itemCapacity": 300,
+        "engineOffset": 6
+}
