@@ -11,6 +11,7 @@
   "range": 500,
   "damage": 10,
   "status": "unmoving",
+  "statusDuration": 60,
   "rotateSpeed": 15,
   "hasPower": true,
   "consumes": {
@@ -18,7 +19,7 @@
   },
 "shootType": {
   "type": "ContinuousLaserBulletType",
-  "trailColor":"AF2020"}
+  "trailColor":"FFFFFF"}
 ,
   "requirements": [
   {"item":"graphite","amount":50},
