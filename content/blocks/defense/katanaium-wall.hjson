@@ -1,0 +1,15 @@
+{    
+name: "Katanaium Wall"
+description: '''
+A wall made out of katanaium, can be placed on water.
+'''
+    "type": "Wall",
+    "placeableLiquid": true,
+    "health": 1050,
+    "size": 1,
+    "requirements": [
+     "phighthouse-katanaium/6"
+    ],
+    "category": "defense",
+    "research": "phighthouse-katanaium-converter"
+}

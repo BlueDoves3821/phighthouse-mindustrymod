@@ -1,0 +1,15 @@
+{    
+    name: "Large Katanaium Wall"
+description: '''
+A large wall made out of katanaium, can be placed on deep water.
+'''
+    "type": "Wall",
+    "placeableLiquid": true,
+    "health": 4200,
+    "size": 2,
+    "requirements": [
+     "phighthouse-katanaium/24"
+    ],
+    "category": "defense",
+    "research": "katanaium-wall"
+}
