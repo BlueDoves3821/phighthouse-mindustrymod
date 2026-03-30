@@ -1,7 +1,7 @@
 type: LiquidTurret
 requirements: [
 coilium/80
-pyratite/5
+copper/5
 titanium/5
 ]
 name: "Coil Sprayer"
