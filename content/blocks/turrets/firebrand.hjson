@@ -1,6 +1,6 @@
 type: PowerTurret
 requirements: [
-  coilium/10
+  coilium/25
   pyratite/10
 ]
 name: "PHIGHTING! Firebrand"
@@ -23,6 +23,7 @@ smokeEffect: none
 shootSound: flame
 shootType: {
   type: BulletType
+  damage: 30
   homingPower: 0.2
   homingRange: 150
   trailEffect: fire
