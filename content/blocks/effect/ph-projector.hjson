@@ -1,5 +1,5 @@
 name: PHIGHTHOUSE Projector
-description: "A force projector made out of phightiums & whitehouseium, good protection."
+description: "A force projector mostly made out of phighthouseium, good protection."
 type: ForceProjector
 health: 3500
 size: 4
@@ -20,17 +20,16 @@ consumes: {
   power: 10
   items: {
     items: [
-      phighthouse-coilium/1
+      phighthouseium/1
     ]
     booster: true
 	optional: true
   }
 }
 requirements: [
-  phighthouse-coilium/650
+  phighthouseium/650
   titanium/120
-  phighthouse-katanaium/320
-  phighthouse-whitehouseium/410
+  phighthouse-katanaium/200
 ]
 category: effect
 research: phighthouse-ph-core

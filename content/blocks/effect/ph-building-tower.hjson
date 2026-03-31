@@ -13,16 +13,14 @@
   "consumes": {
     "power": 5,
   items: [
-    phighthouse-coilium/1
-    phighthouse-whitehouseium/1
+    phighthouseium/1
   ]
   },
   "category": "effect",
   "requirements": [
-  "phighthouse-whitehouseium/60"
+  "phighthouseium/90"
   "silicon/150"
   "plastanium/40"
-  "phighthouse-coilium/50"
   "phighthouse-katanaium/25"
   ],
   "research": "phighthouse-ph-core"
