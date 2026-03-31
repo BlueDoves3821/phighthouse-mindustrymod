@@ -1,0 +1,9 @@
+name: "Phighthouseium"
+description: '''
+It's took a long time for a mod called "PHIGHTHOUSE!" to have the titular item, whoops :/
+'''
+color: B89FE6
+  research: {
+    parent: phighthouseium-converter
+    requirements: []
+}
