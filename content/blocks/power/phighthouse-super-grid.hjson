@@ -4,10 +4,7 @@ name: "PHIGHTHOUSE Super Grid"
 description: "An upgraded version of the Phighthouse Power Grid, more connections, at the cost of extra materials."
 
 requirements: [
-  phighthouse-coilium/20
-  phighthouse-subspaceium/20
-  phighthouse-biograftium/20
-  phighthouse-hyperlaserium/15
+  phighthouseium/50
   phighthouse-katanaium/30
   phighthouse-whitehouseium/20
   titanium/35
@@ -18,12 +15,9 @@ armored: 50
 maxNodes: 250
 laserRange: 750
   research: {
-    parent: phighthouse-phighthouse-power-grid
+    parent: phighthouse-power-grid
     requirements: [
-      phighthouse-coilium/100
-      phighthouse-hyperlaserium/300
-      phighthouse-subspaceium/300
-      phighthouse-biograftium/300
+      phighthouseium/300
       phighthouse-katanaium/300
       phighthouse-whitehouseium/300
 ]

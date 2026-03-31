@@ -4,10 +4,7 @@ name: "PHIGHTHOUSE Power Grid"
 description: "A power grid made from phightiums & whitehouseium, extremely high range & connections, extra armored."
 
 requirements: [
-  coilium/10
-  subspaceium/10
-  biograftium/10
-  hyperlaserium/5
+  phighthouseium/35
   katanaium/15
   whitehouseium/10
   titanium/15
@@ -18,12 +15,9 @@ armored: 50
 maxNodes: 100
 laserRange: 750
   research: {
-    parent: ph-cannon
+    parent: ph-core
     requirements: [
-      coilium/100
-      hyperlaserium/300
-      subspaceium/300
-      biograftium/300
+      phighthouseium/300
       katanaium/300
       whitehouseium/300
 ]
