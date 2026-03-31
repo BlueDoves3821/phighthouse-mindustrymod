@@ -90,7 +90,7 @@ phighthouseium: {
     damage: 400
     lifetime: 120
     speed: 12.5
-  homingPower: 3
+  homingPower: .5
    }
 }
 ammoPerShot: 1
