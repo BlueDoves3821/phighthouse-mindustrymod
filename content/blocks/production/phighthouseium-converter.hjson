@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: "Phighthouseium Converter"
+description: '''
+Converts coilium & whitehouseium into phighthouseium, the titular item of the mod.
+'''
+size: 2
+consumes: {
+  power: 0.5
+  items: [
+    phighthouse-coilium/1
+    phighthouse-whitehouseium/1
+  ]
+}
+craftEffect: smeltsmoke
+drawer: [
+  DrawDefault
+  {
+    type: DrawFlame
+    flameColor: 9637C7
+  }
+]
+craftTime: 30
+outputItems: [
+   phighthouseium/2
+]
+  research: {
+    parent: phighthouse-ph-core
+    requirements: [
+      phighthouse-coilium/500
+      phighthouse-whitehouseium/100
+]
+}
+category: crafting
+requirements: [
+  titanium/65
+  metaglass/50
+  copper/50
+]
