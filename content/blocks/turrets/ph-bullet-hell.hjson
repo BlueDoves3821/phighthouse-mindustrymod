@@ -1,7 +1,6 @@
 type: ItemTurret
 requirements: [
-phighthouse-coilium/200
-phighthouse-whitehouseium/200
+phighthouseium/200
 ]
 name: "PHIGHTHOUSE Bullet Hell"
 description: '''
@@ -10,6 +9,7 @@ Basically touhou if it was phighthouse.
 [pink]subspaceium: much faster, homing, less damage.
 [white]whitehouseium: slower, homing, more damage.
 [cyan]hyperlaserium: hit-scan lasers, hope you weren't in the scan.
+[purple]phighthouseium: same speed as coilium, extreme homing power, large damage.
 '''
 hasShadow: false
 category: turret
@@ -80,13 +80,24 @@ phighthouse-hyperlaserium: {
       ffffff
     ]
 }
+phighthouseium: {
+    type: BasicBulletType
+    width: 25
+    height: 15
+    backColor: 9637C7
+    frontColor: 9637C7
+    ammoMultiplier: 1
+    damage: 400
+    lifetime: 120
+    speed: 12.5
+  homingPower: 3
+   }
 }
 ammoPerShot: 1
 shotCapacity: 600
   research: {
-    parent: phighthouse-ph-core
+    parent: phighthouse-ph-cannon
     requirements: [
-      phighthouse-whitehouseium/450
-      phighthouse-coilium/450
+      phighthouseium/450
 ]
 }

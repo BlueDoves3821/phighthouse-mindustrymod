@@ -1,8 +1,6 @@
 type: ItemTurret
 requirements: [
-coilium/800
-hyperlaserium/500
-subspaceium/450
+phighthouseium/650
 biograftium/50
 surge-alloy/75
 ]
@@ -100,11 +98,9 @@ coolant: {
   amount: 1
 }
   research: {
-    parent: ph-core
+    parent: ph-cannon
     requirements: [
-      subspaceium/850
-      coilium/1150
-      hyperlaserium/650
+      phighthouseium/850
       biograftium/100
       surge-alloy/150
 ]

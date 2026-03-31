@@ -1,7 +1,6 @@
 type: ItemTurret
 requirements: [
-whitehouseium/100
-coilium/100
+phighthouseium/100
 hyperlaserium/30
 copper/10
 ]
@@ -81,5 +80,6 @@ research: {
     requirements: [
 coilium/250
 whitehouseium/250
+phighthouseium/100
 ]
 }
