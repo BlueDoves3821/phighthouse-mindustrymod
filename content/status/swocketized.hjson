@@ -1,8 +1,12 @@
 name: "Swocketized"
-speedMultiplier: 0.1
-reloadMultiplier: 0.2
-healthMultiplier: 1.2
-effectChance: 0.08
+description: '''
+the effect resulted in being hit by the swocket.
+(or other phighthouse turrets/units)
+'''
+speedMultiplier: 0.15
+reloadMultiplier: 0.25
+healthMultiplier: 0.85
+damage: 1
 effect: {
   length: 30
   lifetime: 25
