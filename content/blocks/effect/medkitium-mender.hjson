@@ -1,22 +1,21 @@
 name: "Medkitium Mender"
 description: '''
-Medkitium does not exist yet, the overseer had some questions with him atm. :(
+A mender made out of medkitium & katanaium, heals very well.
 '''
 type: MendProjector
 color:2CBFA2
 health: 1500
 size: 2
 requirements: [
-  coilium/150
-   plastanium/55
+  medkitium/90
+  katanaium/50
 ]
 category: effect
   research: {
-    parent: coilium-overdrive
+    parent: medkitium-converter
     requirements: [
-      coilium/100
-      plastanium/100
-      titanium/35
+      medkitium/350
+      plastanium/500
 ]
 }
 hasPower:true
@@ -25,7 +24,9 @@ consumes: {
 }
 reload:35
 range:200
+status: medkitium-healing
 healpercent:35
-phaseRangeBoost:0
+fuelItem: medkitium
+phaseRangeBoost:1
 phaseBoost:1.5
 useTime:150
