@@ -32,7 +32,7 @@ outputItems: [
 }
 category: crafting
 requirements: [
-  titanium/65
+  subspaceium/35
   metaglass/50
   copper/65
 ]

@@ -32,7 +32,7 @@ outputItems: [
 }
 category: crafting
 requirements: [
-  titanium/65
+  coilium/65
   metaglass/50
   copper/50
   thorium/15

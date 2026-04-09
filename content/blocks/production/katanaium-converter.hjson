@@ -36,5 +36,5 @@ category: crafting
 requirements: [
   titanium/65
   metaglass/50
-  copper/65
+  coilium/40
 ]

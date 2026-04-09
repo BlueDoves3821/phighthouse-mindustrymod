@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: "Medkitium Exchanger"
+description: '''
+Exchanges coilium for medkitium, requires more power.
+'''
+size: 2
+consumes: {
+  power: 3
+  items: [
+    coilium/1
+  ]
+}
+craftEffect: smeltsmoke
+craftTime: 60
+outputItems: [
+   medkitium/1
+]
+  research: {
+    parent: medkitium-converter
+    requirements: [
+      coilium/150
+      plastanium/150
+]
+}
+category: crafting
+requirements: [
+  coilium/35
+  copper/50
+  plastanium/10
+]

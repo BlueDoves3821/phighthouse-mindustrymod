@@ -1,14 +1,14 @@
 type: GenericCrafter
-name: "Hyperlaserium Converter"
+name: "Medkitium Converter"
 description: '''
-Converts coilium & titanium into a precision-based hyperlaserium.
+Converts coilium & plastanium into the healing item, medkitium
 '''
 size: 2
 consumes: {
   power: 0.5
   items: [
     coilium/1
-    titanium/1
+    plastanium/1
   ]
 }
 craftEffect: smeltsmoke
@@ -16,23 +16,24 @@ drawer: [
   DrawDefault
   {
     type: DrawFlame
-    flameColor: 2b90b4
+    flameColor: 2cbfa2
   }
 ]
 craftTime: 30
 outputItems: [
-   hyperlaserium/1
+   medkitium/1
 ]
-research: {
-    parent: coilium-converter
+  research: {
+    parent: subspaceium-converter
     requirements: [
-    titanium/500
-    coilium/150
+      coilium/150
+      plastanium/150
 ]
 }
 category: crafting
 requirements: [
-  coilium/25
-  metaglass/40
+  coilium/65
+  metaglass/50
   copper/50
+  plastanium/15
 ]
