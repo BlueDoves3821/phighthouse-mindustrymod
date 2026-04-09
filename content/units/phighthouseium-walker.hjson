@@ -1,0 +1,65 @@
+{
+  "name": "Phighthouseium Walker"
+  "description": '''
+A large walker that fires a laser beam that damages enemies, burns them, and applies the swocketized effect on them, the laser beam also repairs ally units & blocks, it can also build too.
+'''
+  "groundLayer": 75,
+  "type": "legs",
+  "speed": 0.75,
+  "hitSize": 35,
+  "health": 20000,
+  "rotateSpeed": 4,
+  "armor": 62,
+  "drag": 0.4,
+  "canDrown": false,
+  "range": 900,
+  "flying": false,
+  "targetAir": true,
+  "maxStretch": 1,
+  "legCount": 4,
+  "legBaseOffset": 2,
+  "legLengthScl": 0.98,
+  "legPairOffset": 3,
+  "legMoveSpace": 0.8,
+  "legExtension": -10,
+  "legLength": 50,
+  "rippleScale": 7,
+  "landShake": 1,
+  "legSplashDamage": 350,
+  "legSplashRange": 52,
+  "visualElevation": 0.7,
+  "allowLegStep": true,
+  "hovering": true,
+  "buildSpeed": 100,
+  "ambientSound": game8
+  "ambientSoundVolume": 0.35
+  "research": phighthouseium-unit-factory,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "name": "phw-weapon",
+      "heatColor": "f9350f",
+      "reload": 60,
+      "shootDuration": 50,
+      "layerOffset": 0.001,
+      "shootY": 26,
+      "recoil": 0,
+      "rotate": false,
+      "rotateSpeed": 10,
+      "shootSound": "shootToxopidShotgun",
+      "mirror": false,
+      "shootCone": 1,
+      "bullet": {
+          type: ContinuousLaserBulletType
+  collidesTeam: true
+  healPercent: 25
+  damage: 2500
+  colors: [9B5DBA, 9B5DBA]
+  length: 900
+  width: 6
+  status: phighthouse-swocketized
+}
+}
+]
+}
