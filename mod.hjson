@@ -13,4 +13,4 @@ PHIGHTHOUSE!
 '''
 minGameVersion: 136.1
 version: 1.0
-
+hideBrowser: true
