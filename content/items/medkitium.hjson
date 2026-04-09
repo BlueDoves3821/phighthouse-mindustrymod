@@ -1,0 +1,9 @@
+name: "Medkitium"
+description: '''
+a healing item made from mixing coilium & plastanium.
+'''
+color: 2cbfa2
+  research: {
+    parent: coilium
+    requirements: []
+}
