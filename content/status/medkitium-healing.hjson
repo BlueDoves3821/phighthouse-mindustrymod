@@ -1,0 +1,6 @@
+name: "Medkitium Healing"
+description: '''
+A positive effect that heals units.
+'''
+healthMultiplier: 1.15
+damage: -3.5
