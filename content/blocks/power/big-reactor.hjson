@@ -4,7 +4,7 @@ name: '''
 big subspaceium reactor
 '''
 description: "N/A In Campaign mode.
-this can power everything you build, goes well with the phighthouse power-grid."
+this can power everything you build, goes well with the phighthouse power grid, be sure to protect it well, otherwise, you can say your sector a good goodbye."
 
 requirements: [
   phighthouse-subspaceium/1500

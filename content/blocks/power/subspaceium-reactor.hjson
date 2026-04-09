@@ -1,7 +1,7 @@
 type: NuclearReactor
 
 name: "Subspaceium Reactor"
-description: "[red]Disclaimer: Despite the name, it does not take subspaceium as fuel, it merely uses it as material. [grey]An upgraded thorium reactor, generates large amounts of power, explodes if cryofluid runs empty."
+description: "An upgraded thorium reactor built with subspaceium, generates large amounts of power, explodes if cryofluid runs empty."
 details: "THE DOOMED POTENTIAL."
 
 requirements: [

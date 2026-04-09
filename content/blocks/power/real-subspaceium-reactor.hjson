@@ -1,9 +1,9 @@
 type: NuclearReactor
 
 name: '''
-An "Actual" Subspaceium Reactor
+Subspaceium Reactor (subspaceium fuel)
 '''
-description: "Unlike the original reactor, this reactor DOES take subspaceium as fuel, generates large amounts of power, explodes if cryofluid runs empty."
+description: "A modified subspaceium reactor that uses subspaceium as fuel, same stats as the regular subspaceium reactor."
 details: "THE DOOMED POTENTIAL."
 
 requirements: [
