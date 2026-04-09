@@ -15,18 +15,16 @@ category: effect
     parent: medkitium-converter
     requirements: [
       medkitium/350
-      plastanium/500
+      katanaium/500
 ]
 }
 hasPower:true
 consumes: {
   power: 4
 }
-reload:35
-range:200
-status: medkitium-healing
-healpercent:35
-fuelItem: medkitium
-phaseRangeBoost:1
-phaseBoost:1.5
-useTime:150
+reload: 35
+range: 200
+healpercent: 35
+phaseRangeBoost: 1
+phaseBoost: 1.5
+useTime: 150
