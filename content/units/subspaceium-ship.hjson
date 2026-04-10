@@ -3,7 +3,7 @@
     "isCounted": true,
     "name": "Subspaceium Ship",
     "localisedName": "Subspaceium Ship",
-    "description": "A massive ship that can create a whole bunch of M.B.Units.
+    "description": "A massive ship that can create a whole bunch of M.B.Units, will also spawn M.B.Units upon death.
 [grey](long live blackrock)",
     "flying": true,
     "health": 70000,
@@ -17,6 +17,28 @@
     "engineOffset": 6,
     "hitSize": 75,
     "commandLimit": 20,
+engineSize: 9
+engines: [
+  {
+    x: 32
+    y: -50
+    radius: 9
+    rotation: 270
+  } 
+  {
+    x: 0
+    y: -35
+    radius: 12
+    rotation: 270
+    engineColor: ff0368
+  } 
+  {
+    x: -32
+    y: -50
+    radius: 9
+    rotation: 270
+  }
+] 
 research: subship-factory
 weapons: [
     {
@@ -87,5 +109,10 @@ weapons: [
           "spawnX": -18,
           "spawnY": -30
       }
+{
+  type: SpawnDeathAbility
+  unit: phighthouse-mini-bgm-unit
+  amount: 60
+  }
     ]
 }

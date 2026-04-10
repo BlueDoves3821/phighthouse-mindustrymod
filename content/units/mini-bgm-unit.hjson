@@ -12,6 +12,7 @@ faceEnemy: true
 circleEnemy: true
 canBoost: true
 drawCell: false
+"defaultController": "groundAI",
 
 useUnitCap: false
 
@@ -25,6 +26,7 @@ useUnitCap: false
   "hitSize": 1
   "weapons": [
     {
+      "name": bgmu-weapon
       "reload": 1,
       "inaccuracy": 0,
       "rotate": true,

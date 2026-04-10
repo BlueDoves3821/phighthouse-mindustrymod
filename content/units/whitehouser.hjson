@@ -8,7 +8,7 @@ speed: 3
 rotateSpeed: 30
 drag: 0.03
 accel: 0.1
-hitSize: 16
+hitSize: 25
 lowAltitude: false
 faceTarget: false
 circleTarget: true
@@ -17,17 +17,29 @@ mineTier: 10
 buildSpeed: 100
 mineSpeed: 10
 coreUnitDock: true
+engineSize: 3
+engines: [
+  {
+    x: 0
+    y: -10
+    radius: 3
+    rotation: 270
+  } 
+] 
   "weapons": [
     {
-     y: 3
+     y: 8
       "reload": 5,
       "inaccuracy": 2,
       "rotate": true,
-      "bullet": {
-        "type": "BasicBulletType",
-        "damage": 50,
-        "height": 9,
-        "width": 7,
+      shoot: {
+      shots: 1
+}
+      bullet: {
+            type: BasicBulletType
+            width: 5
+            height: 8
+       damage: 50
         "homingPower": 1,
         "lifetime": 90
         speed: 25
