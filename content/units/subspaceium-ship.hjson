@@ -99,20 +99,25 @@ weapons: [
           "type": "UnitSpawnAbility",
           "unit": "mini-bgm-unit",
           "spawnTime": 240,
-          "spawnX": 18,
+          "spawnX": 18.2,
           "spawnY": -30
       },
       {
           "type": "UnitSpawnAbility",
-          "unit": "mini-bgm-unit",
+          "unit": "mini-bgm-unit-no-boost",
           "spawnTime": 240,
-          "spawnX": -18,
+          "spawnX": -18.2,
           "spawnY": -30
       }
 {
   type: SpawnDeathAbility
   unit: phighthouse-mini-bgm-unit
-  amount: 60
+  amount: 30
+  }
+{
+  type: SpawnDeathAbility
+  unit: phighthouse-mini-bgm-unit-no-boost
+  amount: 30
   }
     ]
 }
