@@ -2,7 +2,7 @@
   "name": "[white]Mini Biograftium Unit (Boostless)",
   "description": "a really small unit made out of biograftium, not very strong, mainly used as a distractor, does not count towards the unit limit, does not have the ability to boost.
 [grey]if there's enough of it, the enemy is overwhelmed!
-[#D75A58[]](disclaimer: unit will self-destruct itself if it rams itself at buildings)",
+[red](disclaimer: unit will self-destruct itself if it rams itself at buildings)",
   "drag": 0.15,
   "speed": 3.5,
   "buildSpeed": 10,
