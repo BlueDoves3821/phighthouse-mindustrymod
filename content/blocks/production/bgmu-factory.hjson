@@ -1,5 +1,5 @@
 Name: Mini Biograftium Unit Factory
-description: Builds the M.B.Unit.
+description: Builds the M.B.Unit that can have an optional boost mode at the cost of more biograftium.
 type: UnitFactory
 size: 3
 consumes: {
@@ -7,10 +7,17 @@ consumes: {
 }
 plans: [
   {
-    unit: mini-bgm-unit
+    unit: mini-bgm-unit-no-boost
     time: 100
     requirements: [
 phighthouse-biograftium/10
+    ]
+  }
+  {
+    unit: mini-bgm-unit
+    time: 100
+    requirements: [
+phighthouse-biograftium/15
     ]
   }
 ]
