@@ -15,7 +15,7 @@ requirements: [
 size: 10
 ambientSound: hum
 ambientSoundVolume: 1
-itemDuration: 640
+itemDuration: 1200
 itemCapacity: 100
 liquidCapcity: 3500
 health: 15000
