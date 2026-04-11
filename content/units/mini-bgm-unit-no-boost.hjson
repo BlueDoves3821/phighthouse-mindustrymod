@@ -1,7 +1,8 @@
   "type": "mech",
-  "name": "[white]Mini Biograftium Unit",
-  "description": "a really small unit made out of biograftium, not very strong, mainly used as a distractor, does not count towards the unit limit.
-[grey]if there's enough of it, the enemy is overwhelmed!",
+  "name": "[white]Mini Biograftium Unit (Boostless)",
+  "description": "a really small unit made out of biograftium, not very strong, mainly used as a distractor, does not count towards the unit limit, does not have the ability to boost.
+[grey]if there's enough of it, the enemy is overwhelmed!
+[#D75A58[]](disclaimer: unit will self-destruct itself if it rams itself at buildings)",
   "drag": 0.15,
   "speed": 3.5,
   "buildSpeed": 10,
@@ -10,14 +11,13 @@
   "armor": 5,
 faceEnemy: true
 circleEnemy: true
-canBoost: true
 drawCell: false
 "hitSize": 5,
 "defaultController": "groundAI",
 
 useUnitCap: false
 
-  research: {
+    research: {
     parent: bgmu-factory
     requirements: [
 ]
