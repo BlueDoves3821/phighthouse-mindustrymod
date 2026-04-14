@@ -27,9 +27,8 @@ consumes: {
   }
 }
 requirements: [
-  phighthouseium/650
-  titanium/120
-  phighthouse-katanaium/200
+  phighthouseium/250
+  phighthouse-katanaium/100
 ]
 category: effect
 research: phighthouse-ph-core
