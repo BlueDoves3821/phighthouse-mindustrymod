@@ -18,8 +18,8 @@ outputItems: [
   research: {
     parent: coilium-converter
     requirements: [
-      titanium/500
-      pyratite/100
+      titanium/250
+      copper/500
 ]
 }
 category: crafting
