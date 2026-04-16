@@ -3,5 +3,5 @@ name: "Coilium Fragment"
 itemDrop: phighthouse-coilium
 playerUnmineable: false
 oreDefault: true
-oreScale: 15.15
+oreScale: 1.05
 oreThreshold: 0.8
