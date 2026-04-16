@@ -1,0 +1,7 @@
+type: OreBlock
+name: "Coilium Fragment"
+itemDrop: phighthouse-coilium
+playerUnmineable: false
+oreDefault: true
+oreScale: 15.15
+oreThreshold: 0.8
