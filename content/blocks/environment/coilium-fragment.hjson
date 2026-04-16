@@ -4,4 +4,4 @@ itemDrop: phighthouse-coilium
 playerUnmineable: false
 oreDefault: true
 oreScale: 1.05
-oreThreshold: 5
+oreThreshold: 2.5
