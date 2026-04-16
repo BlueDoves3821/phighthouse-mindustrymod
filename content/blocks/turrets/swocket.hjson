@@ -1,12 +1,16 @@
 type: ItemTurret
 requirements: [
-coilium/500
+coilium/400
 ]
 name: "The Swocket"
 description: '''
-Swocket swocketizes you, dunno how but okay ig.
+Applies the swocketized status to enemies.
+'''
+details: '''
+why does it shoot fire bro
 '''
 hasShadow: false
+outlines: false
 category: turret
 range: 250
 warmupSpeed: 0.5
@@ -35,12 +39,12 @@ layerOffset: 0.02
 }
 smokeEffect: none
 shootSound: flame2
-reload: 5
+reload: 10
 recoil: 0.25
 rotateSpeed: 5
 shake: 0
 size: 10
-inaccuracy: 20
+inaccuracy: 0
 shootCone: 45
 ammoTypes: {
   coilium: {
@@ -67,7 +71,7 @@ ammoTypes: {
         sizeInterp: linear
       }
       {
-        length: 200
+        length: 250
         cone: 32
         lifetime: 35
         particles: 6
@@ -121,13 +125,13 @@ ammoTypes: {
     ammoMultiplier: 8
     rangeChange: 150
     damage: 550
-    lifetime: 40
-    speed: 5
+    lifetime: 80
+    speed: 10
     pierce: true
     hitEffect: none
     despawnEffect: none
     status: swocketized
-    statusDuration: 900
+    statusDuration: 600
     shootEffect: [
       {
         length: 350
@@ -195,6 +199,6 @@ ammoTypes: {
   research: {
     parent: rocket-cannonade
     requirements: [
-      coilium/800
+      coilium/400
 ]
 }
