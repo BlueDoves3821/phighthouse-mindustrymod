@@ -1,28 +1,32 @@
-type: GenericCrafter
-name: "Phightium Factory"
-description: '''
-Uses large amounts of power & copper to make phightiums.
-'''
-size: 4
-consumes: {
-  power: 10
-  items: [
-    copper/30
+{
+	"type": "Separator",
+  "name": "Phightium Factory",
+  "description": "Turns copper into phightiums, uses alot of power.",
+	"size": 4,
+        "itemCapacity": 120,
+ "health": 950,
+	"spinnerSpeed": 4,
+	"craftTime": 4,
+	"hasItems": true,
+	"hasLiquids": false,
+	"hasPower": true,
+	"consumes": {
+		"power": 3.5,
+   "items": [
+    copper/3
   ]
-}
-itemCapacity: 80
-craftEffect: smeltsmoke
-craftTime: 120
-outputItems: [
-   coilium/5
-   hyperlaserium/5
-   subspaceium/5
-   biograftium/5
-   katanaium/5
-   medkitium/5
-]
-  research: {
-    parent: boomcore
+	},
+	"requirements": [
+		{"item": "coilium", "amount": 35},
+		{"item": "katanaium", "amount": 20},
+		{"item": "titanium", "amount": 65},
+		{"item": "metaglass", "amount": 70},
+		{"item": "copper", "amount": 150}
+   {"item": "lead", "amount": 150}
+	],
+	"category": "crafting",
+	"research": {
+  parent: boomcore
     requirements: [
       coilium/150
       hyperlaserium/150
@@ -32,12 +36,12 @@ outputItems: [
       medkitium/150
 ]
 }
-category: crafting
-requirements: [
-  titanium/65
-  coilium/35
-  katanaium/20
-  metaglass/70
-  copper/150
-  lead/150
-]
+	"results": [
+		{"item": "coilium", "amount": 18},
+		{"item": "hyperlaserium", "amount": 10},
+		{"item": "subspaceium", "amount": 7},
+		{"item": "biograftium", "amount": 5},
+		{"item": "katanaium", "amount": 8},
+		{"item": "medkitium", "amount": 2}
+	]
+}
