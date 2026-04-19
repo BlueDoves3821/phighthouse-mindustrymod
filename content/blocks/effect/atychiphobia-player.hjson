@@ -1,0 +1,38 @@
+
+{
+    "name": "Atychiphobia Player",
+    "category": "effect",
+    "description": '''
+[#FF0368]Atychiphobia: The Fear Of Negative Evaluation / Failure.
+[]Plays subspace's theme song on loop, nothing much else to it.
+''',
+    "size": 3,
+    "health": 500,
+    "ambientSound": "atychiphobia",
+    "ambientSoundVolume": 0.55,
+    "type": "GenericCrafter",
+    "craftTime": 120,
+     "baseExplosiveness": 1,
+    "requirements": [
+        "copper/2"
+        "phighthouse-subspaceium/2"
+    ],
+    "craftEffect": {
+        "type": "WaveEffect",
+        "line": true,
+        "particles": 1,
+        "lifetime": 140,
+        "length": 35,
+        "sizeFrom": 0,
+        "sizeTo": 24,
+        "colorFrom": "FF0368FFF",
+        "colorTo": "FF036800"
+    },
+    "research": {
+        "parent":"phighthouse-subspaceium-converter",
+        "requirements":[
+            "phighthouse-subspaceium/15"
+        ]
+    }
+    
+}
