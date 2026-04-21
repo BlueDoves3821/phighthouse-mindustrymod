@@ -1,6 +1,6 @@
 type: OreBlock
-name: "Coilium Fragment"
-itemDrop: phighthouse-coilium
+name: "Whitehouseium Fragment"
+itemDrop: phighthouse-whitehouseium
 playerUnmineable: false
 oreDefault: true
 oreScale: 1
