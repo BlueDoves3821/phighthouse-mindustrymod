@@ -8,7 +8,7 @@ requirements: [
   phighthouse-biograftium/50
 ]
 drillTime: 1
-health: 1400
+health: 400
 tier: 50
 size: 2
 rotateSpeed: 10

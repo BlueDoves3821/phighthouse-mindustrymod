@@ -1,0 +1,35 @@
+type: Drill
+
+name: "Mini Coilium Drill"
+description: "A small coilium drill, used in tight spaces where regular drills can't reach, can also take melted coilium for a speed boost."
+details: "so mini"
+
+requirements: [
+  coilium/20
+]
+drillTime: 25
+health: 350
+tier: 10
+size: 1
+rotateSpeed: 8
+warmupSpeed: 0.01
+itemCapacity: 10
+liquidBoostIntensity: 2
+drillEffect: mineHuge
+updateEffect: pulverizeRed
+updateEffectChance: 0.06
+consumes: {
+  liquid: {
+    liquid: melted-coilium
+    amount: 0.2
+    booster: true
+    optional: true
+  }
+}
+  research: {
+    parent: coilium-drill
+    requirements: [
+      coilium/50
+]
+}
+category: production

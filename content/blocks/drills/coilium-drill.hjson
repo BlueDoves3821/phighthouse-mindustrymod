@@ -8,7 +8,7 @@ requirements: [
   coilium/75
   katanaium/75
 ]
-drillTime: 45
+drillTime: 40
 health: 850
 tier: 10
 size: 2

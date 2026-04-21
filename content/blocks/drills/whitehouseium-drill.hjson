@@ -5,10 +5,10 @@ description: "A whitehouseium drill, basically a re-skinned coilium drill, but d
 details: "Makes me wonder why ores aren't depleted yet"
 
 requirements: [
-  whitehouseium/75
+  whitehouseium/50
   coal/10
 ]
-drillTime: 25
+drillTime: 30
 health: 850
 tier: 10
 size: 2
