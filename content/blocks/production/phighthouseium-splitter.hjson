@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: "Phighthouseium Splitter"
+description: '''
+Splits phighthouseium into coilium & whitehouseium.
+'''
+size: 2
+consumes: {
+  power: 0.5
+  items: [
+    phighthouseium/2
+  ]
+}
+craftEffect: smeltsmoke
+craftTime: 30
+outputItems: [
+   coilium/1
+   whitehouseium/1
+]
+  research: {
+    parent: phighthouseium-converter
+    requirements: [
+      phighthouse-coilium/500
+      phighthouse-whitehouseium/100
+]
+}
+category: crafting
+requirements: [
+  coilium/50
+  metaglass/50
+  whitehouseium/50
+]
