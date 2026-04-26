@@ -1,0 +1,7 @@
+type: OreBlock
+name: "Phighthouseium Fragment"
+itemDrop: phighthouse-phighthouseium
+playerUnmineable: true
+oreDefault: true
+oreScale: 1
+oreThreshold: 0.98
