@@ -1,0 +1,17 @@
+{
+    "name": "Whitehouseium Container",
+    "description": '''
+A whitehouseium storage containter, bigger storage space than the vault.
+'''
+    "type": "StorageBlock",
+    "itemCapacity": 5000,
+    "size": 3,
+    "category": "effect",
+    "health": 1500,
+    "armor": 5,
+    "research": "phighthouse-whitehouseium-maker",
+    "requirements": [
+        "phighthouse-whitehouseium/60",
+        "titanium/100",
+    ]
+}
