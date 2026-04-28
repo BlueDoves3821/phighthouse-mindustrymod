@@ -3,6 +3,7 @@ description: '''
 something used to build & supply any Whitehouse-related builds. (side-note: their music is really abrasive)
 '''
 color: ffffff
+hardness: 1
 research: {
     parent: metaglass
     requirements: []

@@ -3,6 +3,7 @@ description: '''
 something used to build & supply any phighting-related builds. (side-note: how the fuck do i use him)
 '''
 color: ff8b35
+hardness: 1
 flammability: 0.2
   research: {
     parent: titanium
