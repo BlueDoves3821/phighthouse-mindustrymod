@@ -3,7 +3,6 @@ requirements: [
 coilium/200
 titanium/50
 thorium/50
-subspaceium/15
 ]
 name: "the subkit"
 description: '''
@@ -29,12 +28,26 @@ ammoTypes: {
     type: BasicBulletType
     width: 16
     height: 28
-    backColor: 2cbfa2
+    backColor: ff0368
     frontColor: ff0368
     ammoMultiplier: 1
     damage: 10000
     lifetime: 130
     speed: 25
+  }
+medkitium: {
+    type: BasicBulletType
+    width: 16
+    height: 28
+    backColor: 2cbfa2
+    frontColor: 2cbfa2
+    ammoMultiplier: 1
+    damage: 10000
+    lifetime: 130
+    speed: 25
+    status: medkitium-healing
+    collidesTeam: true
+    healPercent: 5
   }
 }
 ammoPerShot: 1
@@ -42,7 +55,8 @@ liquidCapacity: 300
   research: {
     parent: rocket-cannonade
     requirements: [
-      subspaceium/450
+      subspaceium/100
+      medkitium/100
       coilium/450
 ]
 }
