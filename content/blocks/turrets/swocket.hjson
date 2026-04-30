@@ -10,7 +10,7 @@ details: '''
 why does it shoot fire bro
 '''
 hasShadow: false
-outlines: false
+outlineRadius: -2
 category: turret
 range: 250
 warmupSpeed: 0.5
@@ -20,7 +20,7 @@ drawer: {
 type: DrawTurret
 parts: [
 {
-suffix: "-rocket"
+suffix: "-sword"
 progress: warmup
 color: ffffff00
 colorTo: ffffff
