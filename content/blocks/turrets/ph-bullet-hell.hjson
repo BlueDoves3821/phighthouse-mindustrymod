@@ -6,9 +6,10 @@ name: "PHIGHTHOUSE Bullet Hell"
 description: '''
 Basically touhou if it was phighthouse.
 [orange]coilium: fast projectiles, non-homing.
-[pink]subspaceium: much faster, homing, less damage.
+[][#ff0638]subspaceium: much faster, homing, less damage.
 [white]whitehouseium: slower, homing, more damage.
 [cyan]hyperlaserium: hit-scan lasers, hope you weren't in the scan.
+[][#af2020]katanaium: heavy damage, slow, applies unmoving.
 [purple]phighthouseium: same speed as coilium, extreme homing power, large damage.
 '''
 hasShadow: false
@@ -80,6 +81,19 @@ phighthouse-hyperlaserium: {
       ffffff
     ]
 }
+katanaium: {
+    type: BasicBulletType
+    width: 20
+    height: 30
+    backColor: af2020
+    frontColor: af2020
+    ammoMultiplier: 1
+    damage: 1000
+    lifetime: 700
+    speed: 2.5
+    status: unmoving
+    statusDuration: 120
+   }
 phighthouseium: {
     type: BasicBulletType
     width: 25
@@ -87,14 +101,14 @@ phighthouseium: {
     backColor: 9637C7
     frontColor: 9637C7
     ammoMultiplier: 1
-    damage: 400
+    damage: 600
     lifetime: 120
     speed: 12.5
   homingPower: .5
    }
 }
 ammoPerShot: 1
-shotCapacity: 600
+maxAmmo: 30
   research: {
     parent: phighthouse-ph-cannon
     requirements: [

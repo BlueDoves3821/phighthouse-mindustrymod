@@ -8,9 +8,10 @@ description: '''
 Allat rockets from the sky for one kill.
 '''
 armor: 5
+outlineRadius: -2
 hasShadow: false
 category: turret
-range: 250
+range: 450
 shootEffect: none
 smokeEffect: none
 shootSound: pipe
@@ -19,7 +20,7 @@ recoil: 5
 shake: 2
 size: 3
 shoot: {
-  shots: 6
+  shots: 10
 }
 inaccuracy: 15
 velocityRnd: 0.22
@@ -28,11 +29,11 @@ ammoTypes: {
   coilium: {
     type: ArtilleryBulletType
     ammoMultiplier: 1
-    damage: 100
-    splashDamage: 66
+    damage: 250
+    splashDamage: 150
     splashDamageRadius: 18
-    lifetime: 50
-    speed: 5
+    lifetime: 80
+    speed: 6
     width: 15
     height: 15
     backColor: 527CAE
@@ -52,12 +53,12 @@ ammoTypes: {
         sizeInterp: linear
       }
     ]
-    status: sapped
+    status: slow
     trailEffect: none
   }
 }
 ammoPerShot: 10
-ammoCapacity: 40
+maxAmmo: 100
 liquidCapacity: 300
 coolantMultiplier: 3.5
 coolant: {

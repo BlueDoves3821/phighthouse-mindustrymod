@@ -47,7 +47,7 @@ consumes: {
 power: 1
 }
   research: {
-    parent: whitehouseium-maker
+    parent: mini-wh-turret
     requirements: [
       whitehouseium/500
 ]

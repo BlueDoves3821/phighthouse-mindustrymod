@@ -59,7 +59,7 @@ ammoTypes: {
   }
 }
   research: {
-    parent: whitehouseium-maker
+    parent: mini-wh-turret
     requirements: [
       whitehouseium/500
       copper/250

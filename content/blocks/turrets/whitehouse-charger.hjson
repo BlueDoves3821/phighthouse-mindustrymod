@@ -108,7 +108,7 @@ ammoTypes: {
 }
 ammoPerShot: 10
   research: {
-    parent: whitehouseium-maker
+    parent: mini-wh-turret
     requirements: [
       whitehouseium/500
 ]
