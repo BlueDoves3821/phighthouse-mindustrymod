@@ -3,6 +3,7 @@ name: "Katanaium Conveyor"
 description: '''
 A stronger version of the coilium conveyor, trades off speed for more items.
 '''
+health: 150
 armor: 10
 speed: 0.25
 itemCapacity: 60

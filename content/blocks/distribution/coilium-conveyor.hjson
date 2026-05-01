@@ -3,6 +3,7 @@ name: "Coilium Conveyor"
 description: '''
 A stack conveyor made from coilium, with some titanium for extra protection.
 '''
+health: 75
 armor: 5
 speed: 0.5
 itemCapacity: 35

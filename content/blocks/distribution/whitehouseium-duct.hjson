@@ -1,0 +1,12 @@
+{
+  "type": "Duct",
+  "name": "Whitehouseium Duct",
+  "description": "A duct made out of whitehouseium.",
+  "size": 1,
+  "health": 50,
+  "itemCapacity": 1,
+  "speed": 4,
+  "category": "distribution",
+  "requirements": ["whitehouseium/1"],
+  "research": "whitehouseium-maker"
+}

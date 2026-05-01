@@ -1,0 +1,13 @@
+{
+  "type": "Duct",
+  "name": "Whitehouseium Duct (No Side-Input)",
+  "description": "A duct made out of whitehouseium, does not allow non-duct inputs from the sides.",
+  "size": 1,
+  "health": 50,
+  "itemCapacity": 1,
+  "speed": 4,
+  "armored": true,
+  "category": "distribution",
+  "requirements": ["whitehouseium/1"],
+  "research": "whitehouseium-duct"
+}
