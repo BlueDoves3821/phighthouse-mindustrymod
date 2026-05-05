@@ -1,0 +1,17 @@
+{    
+name: "Katanaium Payload Router"
+description: '''
+A slightly faster payload router, enlarged to accomidate larger units.
+'''
+    "type": "PayloadRouter",
+    "health": 700,
+    "size": 5,
+    "moveTime": 30,
+    "payloadLimit": 5,
+    "requirements": [
+     "phighthouse-katanaium/25"
+     "graphite/30"
+    ],
+    "category": "units",
+    "research": "katanaium-payload-conveyor"
+}
