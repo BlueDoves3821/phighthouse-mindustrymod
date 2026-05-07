@@ -16,7 +16,7 @@ consumes: {
   ]
 }
 itemDuration: 360
-powerProduction: 2.5
+powerProduction: 5
 category: power
 research: {
     parent: subspaceium-converter
