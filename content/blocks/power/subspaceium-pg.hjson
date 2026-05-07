@@ -1,0 +1,26 @@
+type: ConsumeGenerator
+name: "Subspaceium Power Generator"
+description: '''
+Generates power by decaying subspaceium.
+'''
+size: 1
+health: 500
+category: power
+consumeEffect: smeltsmoke
+requirements: [
+  subspaceium/20
+]
+consumes: {
+  items: [
+    subspaceium/1
+  ]
+}
+itemDuration: 360
+powerProduction: 2.5
+category: power
+research: {
+    parent: subspaceium-converter
+    requirements: [
+      subspaceium/60
+]
+}
