@@ -38,7 +38,7 @@ layerOffset: 0.02
 ]
 }
 smokeEffect: none
-shootSound: flame2
+shootSound: ShootFlame
 reload: 10
 recoil: 0.25
 rotateSpeed: 5
