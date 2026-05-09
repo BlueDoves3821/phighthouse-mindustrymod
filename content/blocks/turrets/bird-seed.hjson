@@ -11,7 +11,7 @@ category: turret
 shootEffect: none
 smokeEffect: none
 loopSound: wriggle
-shootSound: bang
+shootSound: explosion
 range: 900
 recoil: 0
 shake: 0
