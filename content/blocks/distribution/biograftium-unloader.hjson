@@ -1,0 +1,13 @@
+{
+	"name": "Biograftium Unloader",
+	"description": "Made with biograftium, extremely faster unloading speed than the standard unloader.",
+	"type": "Unloader",
+	"health": 200,
+	"speed": 10,
+	"requirements": [
+		{"item": "biograftium", "amount": 60},
+	],	
+	"category": "distribution",
+	"research": "coilium-unloader",
+	"group": "transportation",
+}
