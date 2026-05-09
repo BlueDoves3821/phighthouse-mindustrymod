@@ -3,7 +3,7 @@
 	"description": "Made with biograftium, extremely faster unloading speed than the standard unloader.",
 	"type": "Unloader",
 	"health": 200,
-	"speed": 10,
+	"speed": 0.1,
 	"requirements": [
 		{"item": "biograftium", "amount": 60},
 	],	
