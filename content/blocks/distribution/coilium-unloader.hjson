@@ -1,5 +1,5 @@
 {
-	"name": "Coilium unloader",
+	"name": "Coilium Unloader",
 	"description": "Made with coilium, faster than standard unloader.",
 	"type": "Unloader",
 	"health": 200,
@@ -7,7 +7,7 @@
 	"requirements": [
 		{"item": "coilium", "amount": 60},
 	],	
-	"category": "effect",
+	"category": "distribution",
 	"research": "coilium-converter",
 	"group": "transportation",
 }
