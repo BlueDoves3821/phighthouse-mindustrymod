@@ -1,20 +1,19 @@
 type: ItemTurret
 requirements: [
-phighthouseium/650
+phighthouseium/150
 biograftium/50
-surge-alloy/75
 ]
 name: "PHIGHTHOUSE BIO-C"
 description: '''
 Uses either biograftium or whitehouseium as ammo, also uses melted coilium to overdrive it.
 '''
-itemCapacity: 100
+maxAmmo: 100
 hasShadow: false
 category: turret
-range: 950
+range: 1350
 shootEffect: none
 smokeEffect: none
-shootSound: laser
+shootSound: shootLaser
 reload: 15
 shake: 5
 size: 10
@@ -30,7 +29,7 @@ ammoTypes: {
     sideLength: 0
     sideWidth: 5
     lifetime: 18
-    length: 950
+    length: 1350
     pierce: true
     colors: [
       C83F01,
@@ -59,7 +58,7 @@ ammoTypes: {
     sideLength: 0
     sideWidth: 5
     lifetime: 18
-    length: 950
+    length: 1350
     pierce: true
     colors: [
       b4b4b4,
@@ -100,8 +99,7 @@ coolant: {
   research: {
     parent: ph-cannon
     requirements: [
-      phighthouseium/850
+      phighthouseium/150
       biograftium/100
-      surge-alloy/150
 ]
 }
