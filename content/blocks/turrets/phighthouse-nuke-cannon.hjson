@@ -1,0 +1,75 @@
+type: ItemTurret
+requirements: [
+phighthouseium/450
+]
+name: "PHIGHTHOUSE Nuke Cannon"
+description: '''
+This cannon can destory enemy bases really well, can also use medkitium to heal ally bases.
+'''
+hasShadow: false
+maxAmmo: 200
+category: turret
+range: 4000
+shootEffect: sparkExplosion
+smokeEffect: smoke
+shootSound: explosionReactorNeoplasm
+reload: 120
+recoil: 4
+shake: 9
+size: 4
+drawer: {
+type: DrawTurret
+parts: [
+{
+suffix: "-barrel"
+progress: recoil
+under: true
+moveY: -4
+}
+]
+}
+ammoTypes: {
+  phighthouseium: {
+    type: ArtilleryBulletType
+    ammoMultiplier: 1
+    damage: 250000
+    splashDamage: 150000
+    splashDamageRadius: 1800
+    lifetime: 5000
+    speed: 4
+    width: 40
+    height: 40
+    backColor: 9637C7
+    frontColor: 9637C7
+    hitEffect: bigShockwave
+    despawnEffect: coreExplosion
+    status: swocketized
+    statusDuration: 3000
+}
+medkitium: {
+    type: ArtilleryBulletType
+    ammoMultiplier: 1
+    damage: 200000
+    splashDamage: 100000
+    splashDamageRadius: 1300
+    lifetime: 5000
+    speed: 4
+    width: 40
+    height: 40
+    backColor: 2cbfa2
+    frontColor: 2cbfa2
+    hitEffect: bigShockwave
+    despawnEffect: coreExplosion
+    status: medkitium-healing
+    statusDuration: 1000
+    collidesTeam: true
+    healPercent: 50
+}
+}
+ammoPerShot: 10
+research: {
+    parent: ph-cannon
+    requirements: [
+phighthouseium/500
+]
+}
