@@ -1,0 +1,16 @@
+{    
+name: "Phighthouseium Wall"
+description: '''
+A wall made out of phighthouseium, can be placed on water & absorb lasers.
+'''
+    "type": "Wall",
+    "placeableLiquid": true,
+    "absorbLasers": true,
+    "health": 1550,
+    "size": 1,
+    "requirements": [
+     "phighthouseium/6"
+    ],
+    "category": "defense",
+    "research": "ph-core"
+}

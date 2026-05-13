@@ -1,0 +1,16 @@
+{    
+    name: "Large Phighthouseium Wall"
+description: '''
+A large wall made out of phighthouseium, can be placed on deep water & absorb lasers.
+'''
+    "type": "Wall",
+    "placeableLiquid": true,
+    "absorbLasers": true,
+    "health": 4700,
+    "size": 2,
+    "requirements": [
+     "phighthouseium/24"
+    ],
+    "category": "defense",
+    "research": "phighthouseium-wall"
+}
