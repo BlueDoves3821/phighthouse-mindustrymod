@@ -1,12 +1,16 @@
 type: ItemTurret
 requirements: [
-phighthouseium/450
+phighthouseium/500
 ]
 name: "PHIGHTHOUSE Nuke Cannon"
 description: '''
-This cannon can destory enemy bases really well, can also use medkitium to heal ally bases.
+A nuke cannon that can destory enemy bases really well.
+[purple]phighthouseium: slow speed, large damage, slow reload time, applies swocketized status to units.
+[][#2cbfa2]medkitium: medium speed, slight decrease of damage, slightly faster reload time, has the ability to heal ally buildings.
+[cyan]hyperlaserium: fast speed, decreased damage, shoots faster but uses more hyperlaserium.
 '''
 hasShadow: false
+health: 1500
 maxAmmo: 200
 category: turret
 range: 4000
@@ -15,7 +19,7 @@ smokeEffect: smoke
 shootSound: explosionReactorNeoplasm
 reload: 120
 recoil: 4
-shake: 9
+shake: 20
 size: 4
 drawer: {
 type: DrawTurret
@@ -34,7 +38,7 @@ ammoTypes: {
     ammoMultiplier: 1
     damage: 250000
     splashDamage: 150000
-    splashDamageRadius: 1800
+    splashDamageRadius: 2000
     lifetime: 5000
     speed: 4
     width: 40
@@ -45,15 +49,38 @@ ammoTypes: {
     despawnEffect: coreExplosion
     status: swocketized
     statusDuration: 3000
+    shootEffect: [
+      {
+        length: 200
+        cone: 10
+        lifetime: 60
+        particles: 15
+        colorFrom: ffffff
+        colorTo: 9637C700
+        sizeFrom: 10
+        sizeTo: 3
+      }
+      {
+        length: 240
+        cone: 15
+        lifetime: 60
+        particles: 12
+        colorFrom: ffffff
+        colorTo: 9637C700
+        sizeFrom: 7
+        sizeTo: 2
+      }
+    ]
 }
 medkitium: {
     type: ArtilleryBulletType
     ammoMultiplier: 1
+    reloadMultiplier: 2
     damage: 200000
     splashDamage: 100000
-    splashDamageRadius: 1300
+    splashDamageRadius: 1500
     lifetime: 5000
-    speed: 4
+    speed: 12
     width: 40
     height: 40
     backColor: 2cbfa2
@@ -64,6 +91,66 @@ medkitium: {
     statusDuration: 1000
     collidesTeam: true
     healPercent: 50
+    shootEffect: [
+      {
+        length: 200
+        cone: 10
+        lifetime: 60
+        particles: 15
+        colorFrom: ffffff
+        colorTo: 2cbfa200
+        sizeFrom: 10
+        sizeTo: 3
+      }
+      {
+        length: 240
+        cone: 15
+        lifetime: 60
+        particles: 12
+        colorFrom: ffffff
+        colorTo: 2cbfa200
+        sizeFrom: 7
+        sizeTo: 2
+      }
+    ]
+}
+hyperlaserium: {
+    type: ArtilleryBulletType
+    ammoMultiplier: 10
+    reloadMultiplier: 5
+    damage: 190000
+    splashDamage: 85000
+    splashDamageRadius: 500
+    lifetime: 5000
+    speed: 40
+    width: 40
+    height: 40
+    backColor: 8CFBFF
+    frontColor: 8CFBFF
+    hitEffect: bigShockwave
+    despawnEffect: coreExplosion
+    shootEffect: [
+      {
+        length: 200
+        cone: 10
+        lifetime: 60
+        particles: 15
+        colorFrom: ffffff
+        colorTo: 8CFBFF00
+        sizeFrom: 10
+        sizeTo: 3
+      }
+      {
+        length: 240
+        cone: 15
+        lifetime: 60
+        particles: 12
+        colorFrom: ffffff
+        colorTo: 8CFBFF00
+        sizeFrom: 7
+        sizeTo: 2
+      }
+    ]
 }
 }
 ammoPerShot: 10
