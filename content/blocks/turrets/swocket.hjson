@@ -38,21 +38,25 @@ layerOffset: 0.02
 ]
 }
 smokeEffect: none
-shootSound: ShootFlame
+shootSound: shootFlame
 reload: 10
-recoil: 0.25
+recoil: 1
 rotateSpeed: 5
-shake: 0
+shake: 2
 size: 10
-inaccuracy: 0
-shootCone: 45
+inaccuracy: 15
+velocityRnd: 0.1
+shootCone: 35
+shoot: {
+  shots: 20
+}
 ammoTypes: {
   coilium: {
     type: BulletType
     ammoMultiplier: 5
     damage: 200
-    lifetime: 40
-    speed: 5
+    lifetime: 18
+    speed: 15
     pierce: true
     hitEffect: none
     despawnEffect: none
@@ -123,10 +127,10 @@ ammoTypes: {
   hyperlaserium: {
     type: BulletType
     ammoMultiplier: 8
-    rangeChange: 150
+    rangeChange: 180
     damage: 550
-    lifetime: 80
-    speed: 10
+    lifetime: 22
+    speed: 20
     pierce: true
     hitEffect: none
     despawnEffect: none
