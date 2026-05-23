@@ -1,7 +1,7 @@
 {    
 name: "Phighthouseium Wall"
 description: '''
-A wall made out of phighthouseium, can be placed on water & absorb lasers.
+A wall made out of phighthouseium, can be placed on deep water & absorb lasers.
 '''
     "type": "Wall",
     "placeableLiquid": true,
