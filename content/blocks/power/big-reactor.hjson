@@ -1,36 +1,37 @@
 type: NuclearReactor
 
 name: '''
-big subspaceium reactor
+Big Subspaceium Reactor
 '''
-description: "N/A In Campaign mode.
-this can power everything you build, goes well with the phighthouse power grid, be sure to protect it well, otherwise, you can say your sector a good goodbye."
+description: '''
+this can power everything you build, goes well with the phighthouse power grid & whitehouseium battery, highly recommended to build this far away from the core, because if it's destroyed, it'll not be pretty for your core.
+'''
 
 requirements: [
-  phighthouse-subspaceium/1500
-  phighthouse-katanaium/500
+  subspaceium/1500
+  katanaium/750
   titanium/250
   graphite/350
 ]
 size: 10
-ambientSound: hum
-ambientSoundVolume: 1
+ambientSound: loopThoriumReactor
+ambientSoundVolume: 2
 itemDuration: 1200
-itemCapacity: 100
+itemCapacity: 250
 liquidCapcity: 3500
-health: 15000
+health: 16000
 armor: 100
-powerProduction: 4500
+powerProduction: 5000
 heating: 0.00085
 flashThreshold: 0.2
-fuelItem: phighthouse-subspaceium
+fuelItem: subspaceium
 category: power
 consumes: {
   items: [
-    phighthouse-subspaceium/5
+    subspaceium/10
   ]
   liquids: [
-    cryofluid/0.1
+    water/0.1
   ]
 }
 explodeEffect: {
@@ -60,32 +61,28 @@ explodeEffect: {
         }
         {
             type: ParticleEffect
-            particles: 40
-            sizeFrom: 250
-            sizeTo: 0
-            lifetime: 150
+            particles: 50
+            sizeFrom: 5
+            sizeTo: 400
+            sizeInterp: circleOut
+            lifetime: 360
             cone: 360
-            length: 200
-            colorFrom: ff0368
-            colorTo: F23AB7
-        }
-        {
-            type: ParticleEffect
-            particles: 15
-            sizeFrom: 200
-            sizeTo: 0
-            lifetime: 100
-            cone: 360
-            length: 325
-            colorFrom: ff0368
-            colorTo: F23AB7
-            line: true
-            strokeFrom: 4
-            strokeTo: 0
+            length: 2000
+            colorFrom: F23AB7AA
+            colorTo: F2A9DA00
         }
     ]
 }
 explosionShake: 90
-explosionShakeDuration: 75
+explodeSound: explosionReactorNeoplasm
+explodeSoundVolume: 5
+explosionShakeDuration: 240
 explosionRadius: 2500
 explosionDamage: 750000
+research: {
+    parent: real-subspaceium-reactor
+    requirements: [
+      coilium/1500
+      subspaceium/2500
+]
+}
