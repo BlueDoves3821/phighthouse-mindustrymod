@@ -12,6 +12,8 @@ range: 2000
 smokeEffect: none
 shootSound: railshot
 chargeSound: railcharge
+soundPitchMin: 1
+soundPitchMax: 1
 reload: 10
 shoot: {
   firstShotDelay: 90
@@ -45,7 +47,7 @@ ammoTypes: {
       {
         baseLength: -45
         length: 45
-        lifetime: 100
+        lifetime: 90
         particles: 15
         colorFrom: 8CFBFF
         colorTo: ffffff
@@ -54,7 +56,7 @@ ammoTypes: {
       }
       {
         length: 0
-        lifetime: 100
+        lifetime: 90
         particles: 1
         colorFrom: 8CFBFF
         colorTo: ffffff
