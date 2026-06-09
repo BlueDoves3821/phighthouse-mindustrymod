@@ -18,6 +18,7 @@ recoil: 1
 shake: 8
 size: 3
 outlineColor: 00000000
+shootEffect: none
 drawer: {
 type: DrawTurret
 basePrefix: logo-
@@ -62,6 +63,5 @@ ammoTypes: {
     parent: mini-wh-turret
     requirements: [
       whitehouseium/500
-      copper/250
 ]
 }
