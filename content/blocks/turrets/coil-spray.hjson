@@ -10,11 +10,10 @@ i'm coiling it
 '''
 hasShadow: false
 category: turret
-range: 250
+range: 400
 shootEffect: none
 smokeEffect: none
 shootSound: none
-loopSound: freebird
 reload: 3
 shake: 4
 size: 4
@@ -30,8 +29,9 @@ ammoTypes: {
     liquid: melted-coilium
     ammoMultiplier: 1
     damage: 100
-    lifetime: 50
+    lifetime: 80
     speed: 5
+    knockback: 2
     status: burning
   }
   water: {
@@ -39,8 +39,9 @@ ammoTypes: {
     liquid: water
     ammoMultiplier: 1
     damage: 50
-    lifetime: 50
+    lifetime: 80
     speed: 5
+    knockback: 2
     status: wet
   }
 }
