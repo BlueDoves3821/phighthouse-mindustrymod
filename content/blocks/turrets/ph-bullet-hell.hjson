@@ -24,12 +24,20 @@ size: 4
 inaccuracy: 360
 velocityRnd: 0
 shootCone: 360
-shootY: -2
+shootY: 0
 shoot: {
   shots: 30
 }
+liquidCapacity: 1500
+coolEffect: none
+coolantMultiplier: 5
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
 ammoTypes: {
-  phighthouse-coilium: {
+  coilium: {
     type: BasicBulletType
     width: 12
     height: 20
@@ -40,7 +48,7 @@ ammoTypes: {
     lifetime: 120
     speed: 12.5
   }
-phighthouse-whitehouseium: {
+whitehouseium: {
     type: BasicBulletType
     width: 12
     height: 20
@@ -52,7 +60,7 @@ phighthouse-whitehouseium: {
     speed: 5
   homingPower: 0.01
    }
-phighthouse-subspaceium: {
+subspaceium: {
     type: BasicBulletType
     width: 25
     height: 15
@@ -64,7 +72,7 @@ phighthouse-subspaceium: {
     speed: 25
   homingPower: .025
    }
-phighthouse-hyperlaserium: {
+hyperlaserium: {
     type: LaserBulletType
     ammoMultiplier: 10
     damage: 250
@@ -102,7 +110,7 @@ phighthouseium: {
     frontColor: 9637C7
     ammoMultiplier: 1
     damage: 600
-    lifetime: 120
+    lifetime: 360
     speed: 12.5
   homingPower: .5
    }
