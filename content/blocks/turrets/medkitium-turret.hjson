@@ -1,0 +1,48 @@
+type: ItemTurret
+name: Medkitium Turret
+description: Has the ability to heal buildings by shooting at them using healing bullets.
+health: 800
+size: 3
+recoil: 0.5
+shootY: 6
+reload: 15
+range: 400
+smokeEffect: steam
+shootEffect: shootHeal
+shootSound: shootSalvo
+inaccuracy: 0.25
+rotateSpeed: 10
+targetGround: true
+targetAir: true
+targetHealing: true
+liquidCapacity: 500
+consumes: {
+  coolant: {
+    amount: 0.1
+  }
+}
+coolantMultiplier: 2
+ammoTypes: {
+  medkitium: {
+    damage: 150
+    speed: 9
+    width: 7
+    height: 9
+    lifetime: 60
+    ammoMultiplier: 1
+    backColor: 2cbfa2
+    frontColor: 2cbfa2
+   collidesTeam: true
+  healPercent: 2
+  status: medkitium-healing
+  statusDuration: 30
+  }
+}
+ 
+requirements: [
+medkitium/120
+katanaium/50
+]
+category: turret
+research: medkitium-mender
+ 
